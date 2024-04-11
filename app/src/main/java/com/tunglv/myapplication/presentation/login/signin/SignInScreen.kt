@@ -33,19 +33,23 @@ import com.tunglv.myapplication.presentation.login.component.TextFieldInputCompo
 import com.tunglv.jetpackfqa.presentation.widget.component.ButtonPrimaryCompose
 import com.tunglv.myapplication.ui.theme.Primary
 import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.navigation.compose.rememberNavController
 import com.tunglv.myapplication.common.STRING_DEFAULT
 import com.tunglv.myapplication.presentation.login.ERROR_TYPE
 import com.tunglv.myapplication.R
+import com.tunglv.myapplication.common.navigateSingleTopTo
+import com.tunglv.myapplication.presentation.destination.SignUpDestination
 
 @Composable
-@Preview
 fun SignInScreen(
     modifier: Modifier = Modifier,
-    viewModel: LoginViewModel = viewModel()
+    viewModel: LoginViewModel = viewModel(),
+    navigationToSignUp: () -> Unit
 ) {
 
     var inputAccount = STRING_DEFAULT
     var inputPassword = STRING_DEFAULT
+    val navHostController = rememberNavController()
 
     Surface(modifier = modifier) {
         Column {
@@ -191,8 +195,7 @@ fun SignInScreen(
                         end = offset
                     )
                     annotations.firstOrNull()?.let { annotation ->
-                        Toast.makeText(getApplication(), "dhasdsabdasbhd", Toast.LENGTH_SHORT)
-                            .show()
+                        navigationToSignUp.invoke()
                     }
                 },
                 modifier = Modifier

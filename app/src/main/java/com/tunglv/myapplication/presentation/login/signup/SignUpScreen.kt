@@ -27,6 +27,7 @@ import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.navigation.compose.rememberNavController
 import com.tunglv.myapplication.common.STRING_DEFAULT
 import com.tunglv.myapplication.common.getAppString
 import com.tunglv.myapplication.getApplication
@@ -36,16 +37,20 @@ import com.tunglv.myapplication.presentation.login.LoginViewModel
 import com.tunglv.myapplication.presentation.login.component.TextFieldInputComponent
 import com.tunglv.jetpackfqa.presentation.widget.component.ButtonPrimaryCompose
 import com.tunglv.myapplication.R
+import com.tunglv.myapplication.common.navigateSingleTopTo
+import com.tunglv.myapplication.presentation.destination.SignInDestination
+import com.tunglv.myapplication.presentation.destination.SignUpDestination
 import com.tunglv.myapplication.ui.theme.Primary
 
 @Composable
 @Preview
 fun SignUpScreen(
     modifier: Modifier = Modifier,
-    viewModel: LoginViewModel = viewModel()
+    viewModel: LoginViewModel = viewModel(),
+    navigationToSignIn: () -> Unit
 ) {
     Surface(modifier = modifier.fillMaxSize()) {
-
+        val navHostController = rememberNavController()
         var inputAccount = STRING_DEFAULT
         var inputPassword = STRING_DEFAULT
         var inputConfirmPassword = STRING_DEFAULT
@@ -200,11 +205,11 @@ fun SignUpScreen(
                         fontSize = 14.sp
                     )
                 ) {
-                    append(getAppString(R.string.have_account))
+                    append(getAppString(R.string.not_have_account))
                 }
                 pushStringAnnotation(
-                    tag = " ${getAppString(R.string.login)}",
-                    annotation = ""
+                    tag = " ${getAppString(R.string.register)}",
+                    annotation = STRING_DEFAULT
                 )
                 withStyle(
                     style = SpanStyle(
@@ -214,7 +219,7 @@ fun SignUpScreen(
                         fontSize = 14.sp
                     )
                 ) {
-                    append(" ${getAppString(R.string.login)}")
+                    append(" ${getAppString(R.string.register)}")
                 }
                 pop()
             }
@@ -227,9 +232,8 @@ fun SignUpScreen(
                         start = offset,
                         end = offset
                     )
-                    annotations.firstOrNull()?.let { annotation ->
-                        Toast.makeText(getApplication(), "dhasdsabdasbhd", Toast.LENGTH_SHORT)
-                            .show()
+                    annotations.firstOrNull()?.let {
+                        navigationToSignIn.invoke()
                     }
                 },
                 modifier = Modifier
