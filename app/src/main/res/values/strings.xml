@@ -1,0 +1,1318 @@
+<resources>
+    <string name="app_name">FQA</string>
+    <string name="login">Đăng nhập</string>
+    <string name="forgot_password">Quên mật khẩu</string>
+    <string name="login3rd">Hoặc đăng nhập với</string>
+    <string name="login_fschool_title">Đăng nhập với FSchool</string>
+    <string name="feature_develop">Chức năng đang phát triển</string>
+    <string name="error_field_must_not_be_empty">Trường bắt buộc</string>
+    <string name="input_user_name">Nhập tên đăng nhập</string>
+    <string name="input_invite_code">Nhập mã giới thiệu</string>
+    <string name="input_voucher">Nhập mã voucher</string>
+    <string name="download_image">Tải ảnh về</string>
+    <string name="expired">HSD:\t </string>
+    <string name="download_image_success">Tải ảnh về thành công</string>
+    <string name="input_password">Nhập mật khẩu</string>
+    <string name="check_voucher_start">Xem lại voucher tại Cá nhân -> </string>
+    <string name="check_voucher_start_download">Xem lại voucher tại Fqa.vn -> Cá nhân -> </string>
+    <string name="voucher_gift">FQA tặng bạn \n</string>
+    <string name="has_error">Có lỗi xảy ra</string>
+    <string name="input_password_confirm">Nhập lại mật khẩu</string>
+    <string name="not_have_account">Bạn chưa có tài khoản?</string>
+    <string name="require_view_my_rank">Để xem BXH của bạn. Vui lòng </string>
+    <string name="have_account">Bạn đã có tài khoản?</string>
+    <string name="register">Đăng ký</string>
+    <string name="no_network">Vui lòng kiểm tra lại kết nối và thử lại</string>
+    <string name="server_time_out">Server không phản hồi</string>
+    <string name="convert_response_error">Lỗi convert response từ server</string>
+    <string name="response_error">Lỗi response</string>
+    <string name="loading">Đang tải…!</string>
+    <string name="unknow_error">Lỗi không xác định</string>
+    <string name="password_confirm_not_math">Mật khẩu không khớp</string>
+    <string name="timi_supporter">Timi_Trợ lý học tập</string>
+    <string name="provider_by_chat_gpt">FQA không chịu trách nhiệm nội dung từ ChatGPT</string>
+    <string name="hint_chat">Bạn hỏi gì đi…</string>
+    <string name="about_us">Về chúng tôi</string>
+    <string name="log_out">Đăng xuất</string>
+    <string name="answer_end">Bạn có chắc chắn muốn kết thúc cuộc trò chuyện không?</string>
+    <string name="explain_end">Bạn có thể đăng nhập lại bất cứ lúc nào bằng tài khoản và mật khẩu, đăng xuất ngay?</string>
+    <string name="cancel">Huỷ</string>
+    <string name="give_up">Bỏ</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="close">Đóng</string>
+    <string name="seen">Đã xem</string>
+    <string name="time">12:00AM</string>
+    <string name="search_question_empty">Không tìm thấy câu hỏi</string>
+    <string name="main_exit_confirm">Ấn back lần nữa để thoát app</string>
+    <string name="account_blocked">Tài khoản bị khoá</string>
+    <string name="account_blocked_contact">Chi tiết vui lòng liên hệ info@fqa.vn để được giải đáp chi tiết</string>
+    <string name="answer_empty_message">Chưa có câu trả lời nào!\nBạn hãy là người trả lời đầu tiên nhé?</string>
+    <string name="discuss_empty_message">Chưa có câu hỏi chi tiết nào!\nBạn hãy là người hỏi đầu tiên nhé?</string>
+    <string name="second_ago">%s giây trước</string>
+    <string name="second"> %s giây</string>
+    <string name="minute_ago">%s phút trước</string>
+    <string name="minute">%s phút</string>
+    <string name="hour_ago">%s giờ trước</string>
+    <string name="hour"> %s giờ</string>
+    <string name="day_ago">%s ngày trước</string>
+    <string name="week_ago">%s tuần trước</string>
+    <string name="month_ago">%s tháng trước</string>
+    <string name="year_ago">%s năm trước</string>
+    <string name="now_ago">vừa xong</string>
+    <string name="delete">Xóa</string>
+    <string name="edit">Chỉnh sửa</string>
+    <string name="sentence">câu</string>
+    <string name="sentence_correct">câu đúng</string>
+    <string name="program_rule">Thể lệ chương trình</string>
+    <string name="create_answer_success">Trả lời thành công</string>
+    <string name="create_answer_cancel_error_answer_title">Bỏ nội dung</string>
+    <string name="create_answer_cancel_error_answer">Thử lại khi nào kết nối internet của bạn mạnh hơn</string>
+    <string name="create_answer_error">Trả lời không thành công</string>
+    <string name="create_answer_error_1">Tạo câu trả lời không thành công</string>
+    <string name="edit_answer_success">Chỉnh sửa câu trả lời thành công</string>
+    <string name="report">Báo cáo</string>
+    <string name="edit_question">Chỉnh sửa câu hỏi</string>
+    <string name="edit_question_success">Chỉnh sửa câu hỏi thành công</string>
+    <string name="create_question_success">Đăng câu hỏi thành công</string>
+    <string name="follow_question">Theo dõi câu hỏi</string>
+    <string name="unfollow_question">Bỏ theo dõi câu hỏi</string>
+    <string name="followed_question">Đã theo dõi câu hỏi</string>
+    <string name="you_have_not_asked_any_question_yet">Bạn chưa đặt câu hỏi nào</string>
+    <string name="data_updating">Dữ liệu đang được cập nhật</string>
+    <string name="data_answer_updating">Không có câu trả lời nào</string>
+    <string name="can_not_delete_reputable_answer">Không thể sửa câu trả lời được đánh dấu uy tín!</string>
+    <string name="reputable_answer">Câu trả lời uy tín</string>
+    <string name="policy_register_account_1">Bằng cách nhấp vào Tạo tài khoản, bạn đồng ý với </string>
+    <string name="policy_register_account_2">Điều khoản &amp; chính sách</string>
+    <string name="policy_register_account_3">của chúng tôi. </string>
+    <string name="search_empty">Không tìm thấy đề thi phù hợp\nvới từ khóa của bạn</string>
+    <string name="question_home_empty">Không tìm thấy dữ liệu!</string>
+    <string name="author_home_empty">Không tìm thấy bài viết của tác giả!</string>
+    <string name="my_question_title">Câu đã hỏi</string>
+    <string name="my_answer_title">Câu trả lời</string>
+    <string name="voting">Bình chọn</string>
+    <string name="rating_answer">Đánh giá câu trả lời</string>
+    <string name="rating_answer_1_star">Câu trả lời vô nghĩa</string>
+    <string name="rating_answer_2_star">Không đúng</string>
+    <string name="rating_answer_3_star">Tạm được</string>
+    <string name="rating_answer_4_star">Tốt</string>
+    <string name="rating_answer_5_star">Rất tốt</string>
+    <string name="rating_successfully">Đánh giá thành công !</string>
+    <string name="can_not_rating_for_my_answer">Bạn không thể bình chọn cho câu trả lời của mình</string>
+    <string name="can_not_edit_for_my_answer_got_the_answer">Không thể chỉnh sửa câu hỏi đã có câu trả lời</string>
+    <string name="top_user_empty">Ops. Không có ai ở đây!</string>
+    <string name="score_user">%s điểm</string>
+    <string name="plus_score">+%s điểm</string>
+    <string name="reputation_top">Uy tín: %s</string>
+    <string name="answer_top">%s câu trả lời</string>
+    <string name="question_top">%s câu hỏi</string>
+    <string name="are_you_leave">Bạn có chắc muốn rời đi?</string>
+    <string name="edit_answer_popup_content">Lưu ý: Nội dung chỉnh sửa sẽ \nkhông được lưu</string>
+    <string name="edit_answer_popup_content_warning">Lưu ý: Nội dung chỉnh sửa có thể \nthay đổi do khác định dạng</string>
+    <string name="delete_answer">Xóa câu trả lời</string>
+    <string name="delete_comment">Xóa bình luận</string>
+    <string name="delete_answer_popup_content">Bạn có chắc chắn muốn xóa câu \ntrả lời?</string>
+    <string name="delete_answer_popup_content_comment">Bạn có chắc chắn muốn xóa \nbình luận?</string>
+    <string name="level">Cấp bậc</string>
+    <string name="armorial">Huy hiệu</string>
+    <string name="exp">Exp</string>
+    <string name="detail">Chi tiết</string>
+    <string name="see">Xem</string>
+    <string name="session_expire_title">Hết phiên đăng nhập</string>
+    <string name="session_expire_content">Tài khoản của bạn đã hết phiên đăng nhập, vui lòng đăng nhập lại để tiếp tục sử dụng dịch vụ!</string>
+    <string name="session_expire_button_label">OK</string>
+    <string name="min_character_question">Vui lòng nhập câu hỏi tối thiểu %s kí tự </string>
+    <string name="no_my_answer">Bạn chưa trả lời câu hỏi nào</string>
+    <string name="topic">Chủ đề</string>
+    <string name="copy_success">Copy thành công</string>
+    <string name="title_rate_content">Đánh giá nội dung</string>
+    <string name="rate_star">%s sao</string>
+    <string name="number_star_1">1</string>
+    <string name="number_star_2">2</string>
+    <string name="number_star_3">3</string>
+    <string name="number_star_4">4</string>
+    <string name="number_star_5">5</string>
+    <string name="rate_success">Gửi đánh giá thành công</string>
+    <string name="empty_lesson">Oop! Không tìm thấy dữ liệu</string>
+    <string name="number_reply">Trả lời (%s)</string>
+    <string name="user_comment">Bình luận của %s</string>
+    <string name="count_comment">%s bình luận</string>
+    <string name="home_new_post_format">Có %d câu hỏi mới</string>
+    <string name="bad_word_register">Tên tài khoản không phù hợp\nvới tiêu chuẩn cộng đồng của FQA.\nBạn vui lòng đặt tên khác nhé!</string>
+    <string name="article">Bài viết của</string>
+    <string name="gift_leaderboard">Thưởng xếp hạng</string>
+    <string name="comment_lesson_empty">Chưa có bình luận nào!\nBạn hãy là người bình luận đầu tiên\nnhé?</string>
+    <string name="search_title">Tìm kiếm</string>
+    <string name="title_voucher">Rất tiếc số lượng quà tặng của\nsự kiện đã hết!</string>
+    <string name="content_voucher">Cùng tham gia những sự kiện tiếp\ntheo trên FQA để săn lùng nhiều\nphần quà hấp dẫn khác nhé.</string>
+    <string name="error_content">Lỗi câu trả lời</string>
+    <string name="result_problem_title">Kết quả</string>
+    <string name="title_error_input_user">Oops!! Có vẻ như ảnh mà bạn chụp chưa đạt tiêu chuẩn. Hãy thử các tips chụp ảnh dưới đây nhé bạn:</string>
+    <string name="title_suggest_first">1. Ảnh có độ sáng tốt</string>
+    <string name="title_suggest_second">2. Chỉ cắt một câu hỏi sẽ cho kết quả tìm kiếm chính xác hơn</string>
+    <string name="title_suggest_third">3. Tạo nét &amp; dùng lưới để căn cho thẳng</string>
+    <string name="tool_text">Chưa có đề bài bạn muốn tìm? Hãy đặt câu hỏi ngay để được giải đáp và nhận quà đặc biệt từ FQA nào!!!</string>
+    <string name="title_result">Lời giải</string>
+    <string name="title_timi">Timi</string>
+    <string name="find_title">Tìm thấy</string>
+    <string name="title_recommend_create_question_result_ai_regular">Chưa có đề bài bạn muốn tìm?</string>
+    <string name="title_recommend_create_question_result_ai_bold"> Hãy đặt câu hỏi ngay để được giải đáp và nhận quà đặc biệt từ FQA nào!!!</string>
+    <string name="title_recommend_create_question_result_timi_regular">Đây có phải là kết quả bạn muốn tìm kiếm?</string>
+    <string name="title_recommend_create_question_result_timi_bold"> Nếu vẫn chưa phải thì nhanh tay đặt câu hỏi để được giải đáp và nhận quà ngay nào!!!</string>
+    <string name="oops_result_ai_bold">Oops, Hệ thống đang bị quá tải!\t</string>
+    <string name="oops_result_timi_bold">Oops, Timi đang bị quá tải!\t</string>
+    <string name="oops_result_regular">Để không phải chờ lâu, bạn hãy Đặt câu\nhỏi cho FQA nhé.</string>
+    <string name="option_register">Hoặc đăng ký với</string>
+    <string name="option_login">Hoặc đăng nhập với</string>
+
+    <!-- edit profile field-->
+    <string name="field_edit_profile_name">Họ và tên:</string>
+
+    <!--region profile -->
+    <string name="personal_user_id">User ID: %s</string>
+    <string name="personal_class">Lớp:</string>
+    <string name="personal_tutor_register">Đăng ký lại</string>
+    <string name="personal_tutor_register_now">Đăng ký làm gia sư ngay</string>
+    <string name="personal_tutor_pending">Đang chờ phê duyệt</string>
+    <string name="personal_tutor_update_info">Cập nhật Hồ sơ gia sư FQA</string>
+    <string name="personal_tutor_status_fail">Đơn đăng ký gia sư của bạn đã không được duyệt! \nLý do: </string>
+    <string name="personal_tutor_status_pending">Bạn đã đăng ký làm gia sư FQA lần cuối vào %s \nChúng tôi sẽ thông báo cho bạn ngay khi có kết quả. Cảm ơn bạn!</string>
+    <string name="personal_tutor_status_success">Đơn đăng ký gia sư của bạn đã được duyệt vào %s \nCảm ơn bạn đã trở thành 1 trong những thành viên của đội ngũ gia sư FQA </string>
+    <string name="personal_tutor_status_ready_to_register">Bạn chưa đăng ký làm gia sư FQA</string>
+    <string name="personal_gender">Giới tính:</string>
+    <string name="personal_date_of_birth">Ngày sinh:</string>
+    <string name="personal_city">Tỉnh thành:</string>
+    <string name="personal_town">Quận/Huyện:</string>
+    <string name="personal_school">Trường học:</string>
+    <string name="personal_score_label">Điểm số</string>
+    <string name="personal_rate_label">Đánh giá</string>
+    <string name="personal_like_label">Thích</string>
+    <string name="personal_number_correct_failed">Số câu đúng/sai:</string>
+    <string name="personal_unlike_label">Không thích</string>
+    <string name="personal_help_label">Đã giúp</string>
+    <string name="personal_charisma_label">Uy tín</string>
+    <string name="personal_question_asked_label">Câu đã hỏi</string>
+    <string name="personal_question_answered_label">Câu đã trả lời</string>
+    <string name="personal_question_answer">Câu trả lời</string>
+    <string name="personal_question_saved">Câu hỏi đã lưu</string>
+    <string name="personal_tutor_info">Thông tin gia sư</string>
+    <string name="code_introduce">Mã giới thiệu</string>
+    <string name="person_parent_func">Cá nhân</string>
+    <string name="person_parent_study_tool">Công cụ học tập</string>
+    <string name="person_parent_support">Trợ giúp và hỗ trợ</string>
+    <string name="personal_study_guide">Cẩm nang học tập</string>
+    <string name="personal_recipe_math">Công thức toán học</string>
+    <string name="personal_chemical_periodic">Bảng tuần hoàn hóa học</string>
+    <string name="personal_reward_history">Lịch sử nhận thưởng</string>
+    <string name="personal_transfer">Thông tin chuyển khoản</string>
+    <string name="personal_calculator">Máy tính Casio</string>
+    <string name="personal_calculator_online">Máy tính Casio online</string>
+    <string name="personal_about_fqa">Về FQA</string>
+    <string name="personal_change_password">Đổi mật khẩu</string>
+    <string name="personal_logout">Đăng xuất</string>
+    <string name="personal_gender_male">Nam</string>
+    <string name="personal_gender_female">Nữ</string>
+    <string name="personal_gender_other">Khác</string>
+    <string name="personal_logout_title">Bạn muốn đăng xuất khỏi tài khoản này?</string>
+    <string name="personal_term_of_use">Điều khoản sử dụng</string>
+    <string name="personal_about_us">Về chúng tôi</string>
+    <string name="personal_select_province_id">Vui lòng chọn tỉnh</string>
+    <string name="personal_select_district_id">Vui lòng chọn Quận/Huyện</string>
+    <string name="personal_update">Tính năng đang phát triển</string>
+    <string name="personal_your_handle">Danh hiệu của bạn</string>
+    <string name="personal_see_more">Xem thêm</string>
+    <string name="personal_table_mission">Bảng nhiệm vụ</string>
+    <string name="personal_delete_account">Xóa tài khoản</string>
+    <string name="personal_negative_point">(X%s)</string>
+    <string name="cranky_tomato_baby">Bé cà cáu kỉnh</string>
+    <string name="check_now">Kiếm điểm ngay</string>
+    <string name="personal_fqa_guard">Vệ binh FQA</string>
+    <string name="_personal_negative_point">Điểm cần để chuộc lỗi: %s</string>
+    <string name="cranky_tomato_baby_content">Bé Cà đang rất bực vì quỹ điểm của bạn đã đạt ngưỡng báo động. Bé Cà đã tắt quyền đặt câu hỏi của bạn. Hãy mau kiếm bù điểm chuộc lỗi với bé Cà</string>
+    <string name="transfer_note">*Lưu ý:</string>
+    <string name="transfer_note_content"> Vui lòng nhập đúng thông tin này để FQA có thể gửi quà tới bạn\nThông tin này là bảo mật và sẽ không hiển thị đối với user khác</string>
+    <string name="transfer_account_bank_title">Tài khoản ngân hàng</string>
+    <string name="transfer_bank">Ngân hàng</string>
+    <string name="transfer_account_number">Số tài khoản</string>
+    <string name="transfer_input_account_number">Nhập số tài khoản</string>
+    <string name="transfer_name_account">Tên chủ tài khoản</string>
+    <string name="transfer_input_name_account">Tên tài khoản</string>
+    <string name="transfer_input_number_relative_momo">Nhập SĐT liên kết Momo</string>
+    <string name="transfer_input_number_relative_zalopay">Nhập SĐT liên kết Zalopay</string>
+    <string name="transfer_save">Lưu</string>
+    <string name="transfer_choose_bank">Chọn ngân hàng</string>
+    <string name="transfer_error_input">Tên tài khoản nhập không đúng định dạng</string>
+    <string name="transfer_error_input_phone">SĐT không đúng định dạng</string>
+    <string name="transfer_success">Cập nhật thành công</string>
+    <string name="transfer_birthday_error">Vui lòng cập nhật năm sinh</string>
+    <string name="transfer_nick_name_error">Vui lòng cập nhật nick name</string>
+    <string name="transfer_number_bank_error">Số tài khoản không đúng định dạng</string>
+    <string name="transfer_number_bank_error_null">Số tài khoản trống</string>
+    <string name="transfer_name_bank_error">Tên tài khoản nhập không đúng định dạng</string>
+    <string name="transfer_momo_phone_error">SĐT liên kết Momo nhập không đúng định dạng</string>
+    <string name="transfer_zalopay_phone_error">SĐT liên kết Zalopay nhập không đúng định dạng</string>
+    <string name="transfer_wallet">Ví điện tử</string>
+    <string name="avatar_default">Dùng ảnh mặc định</string>
+    <string name="select">Chọn</string>
+    <!--end region-->
+
+    <!--region edit profile-->
+    <string name="edit_profile_title">Chỉnh sửa thông tin</string>
+    <string name="edit_profile_label_name">Họ và tên</string>
+    <string name="edit_profile_hint_name">Nhập tên người dùng</string>
+    <string name="edit_profile_label_username">Username</string>
+    <string name="edit_profile_label_email">Email*</string>
+    <string name="edit_profile_hint_email">Nhập email</string>
+    <string name="edit_profile_label_gender">Giới tính</string>
+    <string name="edit_profile_label_phone_number">SĐT</string>
+    <string name="edit_profile_hint_gender">Chọn giới tính</string>
+    <string name="edit_profile_hint_date_of_birth">VD 01-01-2000 </string>
+    <string name="edit_profile_label_date_of_birth">Ngày sinh</string>
+    <string name="edit_profile_label_class">Lớp</string>
+    <string name="edit_profile_hint_class">Chọn lớp</string>
+    <string name="edit_profile_hint_phone">Nhập SĐT</string>
+    <string name="edit_profile_hint_subject">Môn học</string>
+    <string name="edit_profile_hint_point">Chọn điểm</string>
+    <string name="edit_profile_hint_topic">Chủ đề</string>
+    <string name="edit_profile_label_school">Trường học</string>
+    <string name="edit_profile_hint_school">Chọn Trường học</string>
+    <string name="edit_profile_hint_id_card">Số CMND/CCCD/Hộ chiếu</string>
+    <string name="edit_profile_id_card">CMND/CCCD/Hộ chiếu</string>
+    <string name="edit_profile_id_card_place">Nơi cấp</string>
+    <string name="edit_profile_label_province">Tỉnh thành</string>
+    <string name="edit_profile_hint_province">Chọn Tỉnh thành</string>
+    <string name="edit_profile_label_district">Quận/Huyện</string>
+    <string name="edit_profile_hint_district">Chọn Quận/Huyện</string>
+    <string name="edit_profile_save">Lưu</string>
+    <string name="edit_profile_change_email">Thay đổi email</string>
+    <string name="edit_profile_not_verify_email">Xác minh email</string>
+    <string name="edit_profile_verified_email">Đã xác minh</string>
+    <string name="edit_profile_search_hint">Đã xác minh</string>
+    <string name="edit_obj_dlg_title_headerView">Chỉnh sửa đối tượng</string>
+    <string name="edit_profile_change_avatar_take_photo">Chụp ảnh</string>
+    <string name="edit_profile_select_gallery">Chọn từ thư viện</string>
+    <string name="edit_profile_select_available">Dùng ảnh có sẵn</string>
+    <string name="edit_profile_change_avatar_title">Chọn phương thức</string>
+    <string name="edit_profile_email_must_not_be_null">Trường email không được bỏ trống</string>
+    <string name="edit_profile_email_not_validate">Email không đúng định dạng</string>
+    <string name="edit_profile_update_success">Cập nhật thành công</string>
+    <string name="edit_profile_password_incorect">Mật khẩu không đúng</string>
+    <string name="edit_profile_select_class">Vui lòng chọn lớp</string>
+    <string name="edit_profile_select_date_of_birth">Vui lòng chọn ngày sinh</string>
+    <string name="edit_profile_id_card_error">CMND/CCCD/Hộ chiếu không đúng định dạng</string>
+    <string name="edit_profile_id_card_time_error">Ngày hết hạn phải sau ngày cấp</string>
+    <string name="edit_profile_select_subject">Vui lòng chọn môn</string>
+    <string name="edit_profile_select_point">Vui lòng chọn điểm</string>
+    <string name="edit_profile_retry_code">Gửi lại xác minh</string>
+    <string name="edit_profile_not_verify">Chưa xác minh</string>
+    <string name="edit_profile_max_length">Họ và tên tối đa 50 kí tự</string>
+    <string name="edit_profile_validate_empty">Tên username không được bỏ trống</string>
+    <string name="edit_profile_validate_phone_length">SĐT không được quá 20 ký tự</string>
+    <string name="edit_profile_validate_phone">SĐT không đúng định dạng</string>
+    <string name="please_import_email">Vui lòng nhập email</string>
+    <string name="no_format_email">Không đúng định dạng email</string>
+    <string name="email_no_exist">Email không tồn tại trong hệ thống</string>
+    <string name="email_register_google">Vui lòng login bằng tài khoản Google bạn đã đăng ký</string>
+    <string name="email_register_facebook">Vui lòng login bằng tài khoản Facebook bạn đã đăng ký</string>
+    <string name="email_register_fschool">Vui lòng login bằng tài khoản Fschool bạn đã đăng ký</string>
+    <string name="email_register_apple">Vui lòng login bằng tài khoản Apple bạn đã đăng ký</string>
+    <!--end region-->
+
+    <!--  question filter-->
+    <string name="filter_question_title">Lọc theo</string>
+    <string name="filter_question_reset">Thiết lập lại</string>
+    <string name="filter_question_filter">Áp dụng</string>
+    <string name="filter_question_status_title">Trạng thái câu hỏi</string>
+    <string name="filter_question_status_answer_all">Tất cả</string>
+    <string name="filter_question_status_answered">Đã trả lời</string>
+    <string name="filter_question_status_not_answer">Chưa trả lời</string>
+    <string name="filter_question_subject_title">Theo môn</string>
+    <string name="filter_question_class_title">Theo lớp</string>
+    <string name="filter_collapse">Thu gọn</string>
+    <string name="filter_expand">Hiển thị nhiều hơn</string>
+    <string name="collapse">Thu gọn</string>
+
+    <string name="qna">Hỏi đáp</string>
+    <string name="home">Trang chủ</string>
+    <string name="quick_func_take_photo_exercise">Chụp ảnh giải bài</string>
+    <string name="quick_func_mission">Nhiệm vụ</string>
+    <string name="quick_func_leaderboard">Bảng xếp hạng</string>
+    <string name="quick_func_gift">Quà tặng</string>
+    <string name="beta">Beta</string>
+    <string name="quick_func_calculator">Máy tính Casio</string>
+    <string name="quick_func_math">Công thức toán học</string>
+    <string name="quick_func_periodic">Bảng tuần hoàn</string>
+    <string name="quick_func_survey">Khảo sát &amp; Góp ý</string>
+    <string name="social_fqa">Cộng đồng FQA</string>
+    <string name="social_fqa_fanpage">Fanpage FQA</string>
+    <string name="home_my_rank_unavailable">Bạn chưa có mặt trong BXH thành viên hăng hái. Hãy phát huy để đạt thứ hạng cao trong BXH nhé!</string>
+    <string name="social_fqa_youtube">Youtube FQA Official</string>
+    <string name="social_fqa_youtube_description">Kênh tổng hợp video bài giảng</string>
+    <string name="social_fqa_tiktok">Tiktok FQA+</string>
+    <string name="social_fqa_fanpage_plus">Fanpage FQA+</string>
+    <string name="social_fqa_group">Group FQA</string>
+    <string name="social_fqa_fanpage_office">Kênh chính thức</string>
+    <string name="social_fqa_fanpage_entertainment">Kênh giải trí</string>
+    <string name="social_fqa_fanpage_social">Kênh cộng đồng</string>
+    <string name="tab_main_textbook">Giải bài SGK</string>
+    <string name="tab_main_practice">Ôn luyện</string>
+    <string name="tab_main_handbook">Cẩm nang</string>
+    <string name="text_book">SGK</string>
+    <string name="personal">Cá nhân</string>
+    <string name="notification">Thông báo</string>
+    <string name="timi">ChatGPT</string>
+    <string name="reply">Trả lời</string>
+    <string name="create">Tạo</string>
+    <string name="title_update_app">Phiên bản mới hiện đang có sẵn</string>
+    <string name="left_text_update_app">Không, cảm ơn</string>
+    <string name="right_text_update_app">Cập nhật</string>
+    <string name="notification_title">Thông báo</string>
+    <string name="answer">câu trả lời</string>
+    <string name="answer_title">Câu trả lời</string>
+    <string name="point">đ</string>
+    <string name="notification_all">Tất cả</string>
+    <string name="notification_unread">Chưa đọc</string>
+    <string name="notification_empty">Bạn chưa có thông báo nào</string>
+    <string name="header_title">Hỏi đáp bài tập</string>
+    <string name="create_answer">Viết câu trả lời</string>
+    <string name="create_answer_answer">Viết phản hồi</string>
+    <string name="create_answer_hint">Nhập câu trả lời tại đây</string>
+    <string name="enter_comment_hint">Nhập bình luận tại đây</string>
+    <string name="enter_replay_comment_hint">Nhập phản hồi tại đây</string>
+    <string name="question_detail_number">Hỏi chi tiết (%s)</string>
+    <string name="question_detail_share">Chia sẻ</string>
+    <string name="answer_by_timi_title">Trả lời bởi ChatGPT - Câu trả lời này chỉ mang tính chất tham khảo</string>
+    <string name="answer_by_timi_content">Quên là một quá trình tự nhiên của não bộ, tuy nhiên có thể có những cách để giúp bạn quên đi những thứ không cần thiết hoặc không muốn nhớ đến.
+
+1. Tập trung vào những điều khác: Khi bạn tập trung vào những điều khác, não bộ sẽ dần quên đi những thông tin không cần thiết.
+
+2. Luyện tập thể dục: Thể dục giúp cải thiện tuần hoàn máu và oxy đến não bộ, giúp não bộ hoạt động tốt hơn và giảm stress, giúp bạn quên đi những điều không cần thiết.</string>
+    <string name="level_rank">Thứ hạng level</string>
+    <string name="feedback">Phản hồi</string>
+    <string name="question_detail_comment">Bình luận</string>
+    <string name="number_comment">Bình luận (%s)</string>
+    <string name="see_feedback">%s bình luận</string>
+    <string name="save_account">Lưu tài khoản</string>
+    <string name="rate">đánh giá</string>
+    <string name="count_number_note">%s/500</string>
+    <string name="my_rating_for_answer">%s/5</string>
+    <string name="total_rating_for_answer">(%s đánh giá)</string>
+    <string name="question_discuss">Hỏi chi tiết</string>
+    <string name="question_discuss_view">Xem câu hỏi</string>
+    <string name="save_question">Lưu câu hỏi</string>
+    <string name="create_question_detail">Viết câu hỏi chi tiết</string>
+    <string name="create_question">Đặt câu hỏi</string>
+    <string name="remind">Nhắc nhở</string>
+    <string name="remind_confirm_leave">Bạn chưa hoàn thành xong việc\nđặt câu hỏi.\nBạn có chắc muốn rời đi?</string>
+    <string name="sure">Đồng ý</string>
+    <string name="report_question_title">Báo cáo câu hỏi</string>
+    <string name="report_answer_title">Báo cáo câu trả lời</string>
+    <string name="report_content_question">Báo cáo nội dung câu hỏi</string>
+    <string name="report_submit">Gửi</string>
+    <string name="report_other_hint">Viết nội dung</string>
+    <string name="reload">Vuốt để tải lại</string>
+    <string name="question_exist">Câu hỏi không tồn tại</string>
+    <string name="content_question">Nội dung câu hỏi</string>
+    <string name="validate_report_content_length_error">Bạn cần nhập nội dung báo cáo tối thiểu 2 và tối đa 512 ký tự</string>
+
+    // Saved Question
+    <string name="saved_question_title">Câu hỏi đã lưu</string>
+    <string name="saved_question_empty">Bạn chưa có câu hỏi đã lưu nào</string>
+
+    //Change Password
+    <string name="change_password_title">Đổi mật khẩu</string>
+    <string name="change_password_title_new">Đổi mật khẩu mới</string>
+    <string name="change_password_old_pass">Nhập mật khẩu cũ</string>
+    <string name="change_password_title_pass">Mật khẩu cũ</string>
+    <string name="change_password_new_pass">Nhập mật khẩu mới</string>
+    <string name="change_password_new_pass_title">Mật khẩu mới</string>
+    <string name="change_password_confirm_new_pass">Xác nhận mật khẩu mới</string>
+    <string name="change_password_continue">Tiếp tục</string>
+    <string name="change_password_validate_password">Mật khẩu mới phải từ 8 - 50 kí tự</string>
+    <string name="change_password_validate_old_password">Mật khẩu cũ phải từ 8 - 50 kí tự</string>
+    <string name="change_password_validate_old_password_empty">Vui lòng nhập mật khẩu cũ</string>
+    <string name="change_password_validate_new_password_empty">Vui lòng nhập mật khẩu mới</string>
+    <string name="change_password_validate_confirm_new_password_empty">Vui lòng nhập mật khẩu mới</string>
+    <string name="change_password_confirm_incorrect">Mật khẩu mới không trùng khớp nhau*</string>
+    <string name="change_password_new_pass_incorect">Mật khẩu mới trùng mật khẩu cũ</string>
+    <string name="change_password_success">Đổi mật khẩu thành công!</string>
+    <string name="answer_detail_deleted">Câu trả lời đã bị xóa</string>
+    <string name="password_must_least_characters">Mật khẩu tối thiểu 8 kí tự</string>
+    <string name="reset_password_validate_new_password_empty">Vui lòng nhập mật khẩu mới*</string>
+    <string name="reset_password_confirm_incorrect">Mật khẩu mới không trùng khớp nhau</string>
+    <string name="send_info_change_password">Đã gửi thông tin đổi mật khẩu!</string>
+    <string name="content_info_change_password">Một tin nhắn đã được gửi tới email của\nbạn. Xin vui lòng nhấp vào liên kết trong\nemail để lấy lại mật khẩu.</string>
+    <string name="notify_send_first">Một tin nhắn đã được gửi</string>
+    <string name="notify_send_second">tới email</string>
+    <string name="notify_send_third">của\n</string>
+    <string name="notify_send_forth">bạn. Xin vui lòng nhấp vào liên kết trong\n</string>
+    <string name="notify_send_fifth">email để lấy lại mật khẩu.</string>
+    <string name="notify_reset_password_error">Liên kết hết hiệu lực. Vui lòng thử lại</string>
+
+    // Verify Email
+    <string name="verify_email_title">Xác minh email</string>
+    <string name="verify_email_confirm">Xác minh email</string>
+    <string name="verify_email_resend">Gửi lại liên kết xác minh (%s)</string>
+    <string name="verify_email_content">Mã xác minh sẽ được gửi đến địa chỉ email %s. Nhấp vào nút bên dưới để tiến hành xác minh địa chỉ email của bạn.</string>
+    <string name="verify_email_success">Xác minh thành công</string>
+    <string name="verify_email_over">Quá số lần gửi email 1 ngày</string>
+    <string name="verify_email_isVerify">Email đã tồn tại trong hệ thống</string>
+    <string name="verify_email_send_code_success">Gửi mã xác minh thành công</string>
+    <string name="verify_email_verified">Email đã được xác minh rồi</string>
+    <string name="verify_email_expired">Xác minh thất bại</string>
+
+    //Change email
+    <string name="change_email_title">Mật khẩu đăng nhập</string>
+
+    //Report
+    <string name="report_success">Gửi báo cáo thành công!</string>
+    <string name="report_failure">Gửi báo cáo không thành công!</string>
+
+    //Verify password
+    <string name="verify_password_empty">Vui lòng nhập password!</string>
+    <string name="verify_password_change_email_success">Thay đổi email thành công!</string>
+    <string name="verify_password_error">Có lỗi xảy ra!</string>
+    <string name="your_armorial">Danh hiệu của bạn</string>
+    <string name="talent">Tài năng</string>
+    <string name="see_more">Xem thêm</string>
+
+    // top user
+    <string name="top_user">Top thành viên</string>
+    <string name="my_ranking">Xếp hạng của bạn</string>
+    <string name="top_user_my_position">Xếp hạng của bạn</string>
+    <string name="view_all">Xem tất cả</string>
+    <string name="position">Thành viên hăng hái</string>
+    <string name="time_all">Tất cả</string>
+    <string name="last_month">Tháng trước</string>
+    <string name="last_week">Tuần trước</string>
+    <string name="yesterday">Ngày hôm qua</string>
+    <string name="during_the_day">Trong ngày</string>
+    <string name="during_the_week">Trong tuần</string>
+    <string name="during_the_month">Trong tháng</string>
+    <string name="enthusiastic_member">Thành viên hăng hái</string>
+    <string name="wise_member">Thành viên thông thái</string>
+    <string name="active_member">Thành viên năng nổ</string>
+    <string name="studious_member">Thành viên ham học hỏi</string>
+    <string name="month_current">Tháng %s năm %s</string>
+    <string name="leaderboard">Bảng xếp hạng</string>
+    <string name="incognito_account">Không có đáp án</string>
+    <string name="not_available">Không có</string>
+    <string name="reward_updating">Danh sách phần thưởng đang được cập nhật</string>
+    <string name="receiver_reward_updating">Danh sách nhận thưởng đang được cập nhật</string>
+    <string name="leaderboard_updating">Danh sách Bảng xếp hạng đang được cập nhật</string>
+    <string name="top_user_description">(*) Phần thưởng có thể thay đổi tùy theo tình hình\nthực tế. Bảng danh sách thành viên nhận thưởng\nsẽ được cập nhật sớm nhất sau khi kiểm duyệt,\ncác thành viên hợp lệ sẽ nhận được phần thưởng\ntừ FQA. Bạn vui lòng cập nhật thông tin trong\nThông tin chuyển khoản để hoàn tất thông tin\nnhận thưởng! Cập nhật ngay</string>
+    <string name="reward">Phần thưởng</string>
+    <string name="receive_reward">Danh sách nhận thưởng</string>
+    <string name="reward_first">Phần thưởng có thể thay đổi tùy theo tình hình\nthực tế. Bảng danh sách thành viên nhận thưởng\nsẽ được cập nhật sớm nhất sau khi kiểm duyệt,\ncác thành viên hợp lệ sẽ nhận được phần thưởng\ntừ FQA. Bạn vui lòng cập nhật thông tin trong Hồ\nsơ cá nhân để hoàn tất thông tin nhận thưởng!\nCập nhật ngay</string>
+    <string name="reward_second">Đội ngũ FQA xin chúc mừng các bạn đã được\nvào danh sách nhận thưởng, vui lòng làm theo\nhướng dẫn để nhận thưởng. Chúc các bạn đua\ntop thành  công trong tháng tiếp theo!</string>
+    <string name="update_now">Cập nhật ngay</string>
+    <string name="fqa_help">hướng dẫn</string>
+    <string name="top_double">Top %s - Top %s</string>
+    <string name="top_single">Top %s</string>
+    <string name="achievements">Thành tích</string>
+    <string name="bonus">Phần thưởng</string>
+    <string name="note_reward">Ghi chú</string>
+    <string name="link_facebook_fqa">https://www.facebook.com/fqa.official</string>
+    <string name="id_facebook_fqa">100091472942610</string>
+
+    <string name="ask_input_question">Vui lòng nhập câu hỏi</string>
+    <string name="see_score">Xem cách tính điểm</string>
+    <string name="see_event">Xem ngay sự kiện đang diễn ra</string>
+    <string name="choose_image_from_collection">Chọn từ bộ sưu tập</string>
+    <string name="post_question">Đăng câu hỏi</string>
+    <string name="done">Xong</string>
+    <string name="input_voucher_title">Vui lòng nhập mã giới thiệu (nếu có)\nđể nhận được những phần quà hấp\ndẫn</string>
+
+    <string name="_point">%s điểm</string>
+    <string name="_class">Lớp</string>
+    <string name="_class_input">Lớp %s</string>
+    <string name="not_enough_point">Không đủ điểm để tạo câu hỏi</string>
+
+    // hướng dẫn tính điểm
+    <string name="how_to_add_point">Làm thế nào để được cộng điểm?</string>
+    <string name="scoring_guide_2">Trên FQA.VN, điểm dùng để giúp bạn đặt được câu hỏi và là phần thưởng cho người trả lời câu hỏi đó.</string>
+    <string name="scoring_guide_3">Những thao tác đầu tiên</string>
+    <string name="scoring_guide_4">Đăng ký thành viên thành công:</string>
+    <string name="scoring_guide_5">100% số điểm của câu hỏi</string>
+    <string name="scoring_guide_6">Điểm thưởng của nhiệm vụ</string>
+    <string name="scoring_guide_7">100 điểm</string>
+    <string name="scoring_guide_8">100 điểm</string>
+    <string name="scoring_guide_9">Đăng nhập mỗi ngày</string>
+    <string name="scoring_guide_10">Thêm mới ảnh đại diện lần đầu:</string>
+    <string name="scoring_guide_11">Trở thành một thành viên chăm chỉ</string>
+    <string name="scoring_guide_12">Trả lời sớm nhất các câu hỏi trên trang</string>
+    <string name="scoring_guide_13">Hoàn thành các nhiệm vụ của hệ thống</string>
+    <string name="scoring_guide_14">Lưu ý</string>
+    <string name="scoring_guide_15">Trả lời đúng và luôn đầy đủ</string>
+    <string name="scoring_guide_16">Không sao chép mạng</string>
+    <string name="scoring_guide_17">Không spam, cố tình spam sẽ bị khóa tài khoản</string>
+    <string name="scoring_guide_18">Luôn trả lời thắc mắc của người hỏi nếu có</string>
+    <string name="scoring_guide_19">Đáp án</string>
+    <string name="scoring_guide_20">Giải thích</string>
+    <string name="scoring_guide_21">các bước giải</string>
+    <string name="scoring_guide_22">và</string>
+    <string name="scoring_guide_23">10 điểm</string>
+    <string name="scoring_guide_24">Có ôn luyện</string>
+    <string name="scoring_guide_25">Không có</string>
+    <string name="scoring_guide_26">Đã luyện</string>
+    <string name="scoring_guide_27">Chưa luyện</string>
+    <string name="scoring_guide_28">Trạng thái đề</string>
+    <string name="scoring_guide_29">Trạng thái ôn luyện</string>
+
+
+    //Mission board
+    <string name="mission_completed">Hoàn thành nhiệm vụ!</string>
+    <string name="mission_complete_point">+%s điểm</string>
+    <string name="mission_complete_spin">+%s lượt quay</string>
+    <string name="update_mission_completed">Cập nhật đầy đủ thông tin cá nhân lần đầu</string>
+    <string name="point_history_statistic">Thống kê lịch sử điểm</string>
+    <string name="mission_board_watch">Xem bảng nhiệm vụ</string>
+    <string name="mission_receive_point_success">Bạn nhận được</string>
+
+    //other personal
+    <string name="other_personal_title">Trang cá nhân</string>
+    <string name="other_personal_from_member">Thành viên từ:</string>
+    <string name="other_personal_exp">Exp: </string>
+    <string name="other_personal_handle">Danh hiệu</string>
+    <string name="other_personal_empty_handle">Bạn chưa có huy hiệu nào!</string>
+    <string name="other_personal_no_handle">%s Chưa có huy hiệu nào!</string>
+    <string name="other_personal_content_remind_level">(Cần thêm </string>
+    <string name="append_other_personal_content_remind_level"> exp để lên hạng </string>
+    <string name="other_personal_content_max_level">Chúc mừng bạn đã đạt thứ hạng cao nhất!</string>
+    <string name="other_personal_content_max_level_type_2">Chúc mừng đã đạt thứ hạng cao nhất!</string>
+    <string name="other_personal_level">Hạng:</string>
+
+    //armorial fragment
+    <string name="armorial_condition">Truy cập vào FQA mỗi ngày!</string>
+    <string name="armorial_title">Danh hiệu của %s</string>
+    <string name="armorial_show_all">Làm thế nào để lấy huy hiệu?</string>
+    <string name="armorial_list_title">Danh sách huy hiệu</string>
+
+    //Mission
+    <string name="mission_title">Bảng nhiệm vụ</string>
+    <string name="mission_all">Tất cả</string>
+    <string name="mission_daily">Hằng ngày</string>
+    <string name="mission_weekly">Hàng tuần</string>
+    <string name="mission_monthly">Hàng tháng</string>
+    <string name="no_mission_yet">Chưa có nhiệm vụ nào</string>
+    <string name="mission_todo">Thực hiện</string>
+    <string name="mission_todoing">Đang thực hiện</string>
+    <string name="mission_receive">Nhận thưởng</string>
+    <string name="mechanisms_and_rules">Cơ chế và thể lệ BXH</string>
+    <!--    <string name="mission_monthly">Hàng tháng</string>-->
+
+    // saved question
+    <string name="rename_collection">Đổi tên bộ sưu tập</string>
+    <string name="rename_collection_success">Đổi tên thành công</string>
+    <string name="delete_collection">Xóa bộ sưu tập</string>
+    <string name="delete_collection_success">Đã xóa bộ sưu tập</string>
+    <string name="create_collection">Tạo bộ sưu tập</string>
+    <string name="hint_rename_collection">Đổi tên bộ sưu tập mới</string>
+    <string name="hint_create_collection">Nhập tên bộ sưu tập mới</string>
+    <string name="select_collection">Chọn bộ sưu tập</string>
+    <string name="text_confirm_collection">+Tạo bộ sưu tập</string>
+    <string name="save_collection_success">Lưu thành công</string>
+    <string name="save_collection_error">Lưu thất bại</string>
+    <string name="delete_question_saved">Bỏ câu hỏi đã lưu</string>
+    <string name="delete_question_saved_success">Bỏ lưu thành công</string>
+    <string name="delete_question_saved_error">Bỏ lưu không thành công</string>
+    <string name="deleted_question_saved_error">Câu hỏi đã được xóa khỏi bộ sưu tập</string>
+    <string name="confirm_delete_question_saved">Bạn có xác nhận bỏ câu hỏi này \nkhỏi bộ sưu tập không?</string>
+    <string name="content_delete_collection">Bạn có chắc muốn Xóa bộ sưu \ntập này và bỏ lưu các câu hỏi \nđang có?</string>
+    <string name="not_saved_question">Bạn chưa có câu hỏi đã lưu nào</string>
+    <string name="updated_data">Đang cập nhật dữ liệu!</string>
+
+    //Level
+    <string name="dot">•</string>
+    <string name="level_explain1">Tỷ lệ quy đổi 1:1</string>
+    <string name="level_explain2">User nhận được điểm từ làm quest: quy đổi điểm dương 1 điểm =  1 exp</string>
+    <string name="level_explain3">User bị trừ điểm: quy đổi điểm âm -1 điểm = -1 exp</string>
+    <string name="level_explain4">Trường hợp điểm trừ do đổi điểm nhận quà không tính vào trường hợp điểm âm</string>
+    <string name="level_exp">Exp: </string>
+    <string name="level_exp_unit">%s exp</string>
+    <string name="undefined_level">Chưa có hạng</string>
+
+    // point history
+    <string name="point_history">Lịch sử điểm</string>
+    <string name="filter_by">Lọc theo:</string>
+    <string name="filter_by_time">Lọc theo thời gian</string>
+    <string name="point_">Điểm</string>
+    <string name="all_time">Tất cả thời gian</string>
+    <string name="time_title">Thời gian:</string>
+    <string name="point_history_empty">Không có dữ liệu phù hợp</string>
+    <string name="point_history_mission_completed">Hoàn thành nhiệm vụ</string>
+    <string name="login_7_days_in_a_row">Đăng nhập 7 ngày liên tiếp</string>
+    <string name="current_point">Điểm số hiện tại:</string>
+    <string name="watch_point_history">Xem lịch sử điểm </string>
+    <string name="earn_point">Cách thức kiếm điểm</string>
+    <string name="violation_history">Lịch sử vi phạm</string>
+    <string name="current_status">Trạng thái hiện tại: </string>
+    <string name="question_violation_history">Số câu hỏi bị xóa: </string>
+    <string name="answer_deleted">Số câu trả lời bị xóa: </string>
+    <string name="warning_number">Số lần bị cảnh cáo: </string>
+    <string name="forbidden_question">Số lần bị cấm đặt câu hỏi: </string>
+    <string name="forbidden_answer">Số lần bị cấm trả lời câu hỏi: </string>
+    <string name="forbidden_all">Số lần bị cấm đặt câu hỏi và cấm trả lời câu hỏi: </string>
+    <string name="chat_all">Số lần bị cấm chat: </string>
+    <string name="block_number">Số lần bị block: </string>
+    <string name="note">*Lưu ý:</string>
+    <string name="warning_note"> Với những câu hỏi/ câu trả lời spam hay có nghi ngờ gian lận điểm, FQA sẽ xóa khỏi hệ thống của FQA và có các mức phạt, cảnh cáo tương ứng, chi tiết xem</string>
+    <string name="note_first">Nếu FQA phát hiện bạn cố tình vi phạm trên FQA với tần suất liên tiếp, FQA có thể Block vĩnh viễn bạn mà không cần thông báo trước</string>
+    <string name="note_second">Ngoài ra FQA hoàn toàn có thể Block user mà không cần báo trước với những đối tượng có hành vi chống phá đảng, nhà nước...</string>
+    <string name="note_third">Nếu FQA phát hiện bạn cố tình vi\nphạm trên FQA với tần suất liên tiếp,\nFQA có thể Block vĩnh viễn bạn mà\nkhông cần thông báo trước</string>
+    <string name="note_forth">Ngoài ra FQA hoàn toàn có thể Block\nuser mà không cần báo trước với\nnhững đối tượng có hành vi chống\nphá đảng, nhà nước...</string>
+    <string name="block">Block</string>
+    <string name="normal">Bình thường</string>
+    <string name="question_ban">Cấm đặt câu hỏi</string>
+    <string name="answer_ban">Cấm trả lời câu hỏi</string>
+    <string name="qna_ban">Cấm đặt và trả lời câu hỏi</string>
+    <string name="chat_ban">Cấm chat</string>
+    <string name="other">Khác</string>
+    <string name="location">Địa điểm</string>
+    <string name="scholastic">Năm học</string>
+    <string name="all_location">Tất cả tỉnh thành</string>
+    <string name="all_scholastic">Tất cả năm học</string>
+    <string name="point_gift_exchange">Đổi quà:</string>
+
+    <!--region gift-->
+    <string name="gift_sort">Sắp xếp:</string>
+    <string name="gift_sort_asc">Điểm thấp-cao</string>
+    <string name="gift_sort_desc">Điểm cao-thấp</string>
+    <string name="gift_sort_enough">Đủ điểm đổi quà</string>
+    <string name="gift_sort_all">Tất cả</string>
+    <string name="gift_exchange">Đổi quà</string>
+    <string name="text_book_title">Giải bài tập SGK</string>
+    <string name="choose_clazz">Chọn lớp học</string>
+    <string name="clazz_title">Lớp</string>
+    <string name="example_seen">Bài tập đã xem</string>
+    <string name="title_example">Tính đơn điệu của hàm số</string>
+    <string name="example_content">Tính đơn điệu của hàm số, khảo sát sự biến thiên, tính đơn điệu của hàm số, điều kiện để hàm số đồng biến - nghịch biến...</string>
+    <string name="category_title">Toán học Lớp 12</string>
+    <string name="name_category">SGK Toán lớp 12</string>
+
+    //textbook
+    <string name="subject_math">Toán học</string>
+    <string name="subject_select">Chọn môn học</string>
+    <string name="title_index">SGK Toán lớp 12</string>
+    <string name="text_part">Phần giải tích - Toán 12</string>
+    <string name="text_chapter">Chương I. Ứng dụng Đạo hàm để khảo sát và vẽ đồ thị của hàm số</string>
+    <string name="text_lesson">Bài 1. Sự đồng biến, nghịch biến của hàm số</string>
+    <string name="next_lesson">Bài tiếp theo</string>
+    <string name="text_long_test">Lorem Ipsum chỉ đơn giản là một đoạn văn bản giả, được dùng vào việc trình bày và dàn trang phục vụ cho in ấn. Lorem Ipsum đã được sử dụng như một văn bản.</string>
+    <string name="comment">Viết bình luận...</string>
+    <string name="re_comment">Viết bình luận</string>
+    <string name="rate_average">%s/5</string>
+    <string name="clazz_1">Lớp 1</string>
+    <string name="clazz_2">Lớp 2</string>
+    <string name="clazz_3">Lớp 3</string>
+    <string name="clazz_4">Lớp 4</string>
+    <string name="clazz_5">Lớp 5</string>
+    <string name="clazz_6">Lớp 6</string>
+    <string name="clazz_7">Lớp 7</string>
+    <string name="clazz_8">Lớp 8</string>
+    <string name="clazz_9">Lớp 9</string>
+    <string name="clazz_10">Lớp 10</string>
+    <string name="clazz_11">Lớp 11</string>
+    <string name="clazz_12">Lớp 12</string>
+    <string name="index_no_data">Danh mục chưa có dữ liệu</string>
+    <string name="gift_store">Kho quà tặng</string>
+    <string name="survey_personal">Khảo sát &amp; Góp ý</string>
+    <string name="gift_history">Lịch sử quà tặng</string>
+    <string name="contact">Liên hệ</string>
+    <string name="instruct">Hướng dẫn sử dụng</string>
+    <string name="gift_point">điểm</string>
+    <string name="gift_close">Đóng</string>
+    <string name="gift_not_enough_point_left">Bạn đang làm rất tốt rồi, cố gắng đạt thêm</string>
+    <string name="gift_verify_email">Bạn vui lòng xác thực email để đổi quà tặng nha!</string>
+    <string name="gift_verify_email_confirm">Xác thực email!</string>
+    <string name="gift_not_enough_point_center">0 điểm</string>
+    <string name="gift_not_enough_point_right">nữa để nhận quà nha!</string>
+    <string name="gift_exchange_title">Bạn muốn đổi 0 điểm để lấy quà tặng chứ?</string>
+    <string name="gift_note">Ghi chú:</string>
+    <string name="gift_history_status_received">Đã nhận</string>
+    <string name="gift_history_status_sending">Đang gửi</string>
+    <string name="gift_history_status_exchanged_not_sent">Đã đổi quà-Chưa gửi</string>
+    <string name="gift_history_status_not_received">Không nhận</string>
+    <string name="gift_history_status_refuse">Từ chối đổi</string>
+    <string name="congration_gift">Chúc mừng bạn đã nhận được quà từ FQA!</string>
+    <string name="instruction_success_gift">Quà sẽ được gửi tới bạn sớm. Hãy tiếp tục trả lời thật nhiều câu hỏi để nhận thêm nhiều quà nhé!</string>
+    <string name="out_of_gift">Rất tiếc, món quà bạn muốn đổi hiện đã hết!</string>
+    <string name="instruction_fail_gift">Hãy cố gắng trả lời thêm nhiều câu hỏi để đổi quà nha.</string>
+    <string name="fullname">Họ và tên: </string>
+    <string name="fullname_title">Họ và tên*</string>
+    <string name="fullname_hint">Nhập tên người dùng</string>
+    <string name="phone_number_title">Số điện thoại*</string>
+    <string name="phone_number_hint">Nhập số điện thoại</string>
+    <string name="address_title">Địa chỉ nhận hàng*</string>
+    <string name="address_hint">Nhập địa chỉ</string>
+    <string name="province_title">Tỉnh/Thành phố*</string>
+    <string name="province_hint">Chọn Tỉnh thành</string>
+    <string name="district_title">Quận/Huyện*</string>
+    <string name="district_hint">Chọn Quận/Huyện</string>
+    <string name="ward_title">Phường/Xã*</string>
+    <string name="ward_hint">Chọn Phường/Xã</string>
+    <string name="note_title">Ghi chú đơn hàng</string>
+    <string name="note_hint">Nội dung ghi chú</string>
+    <string name="phone_number">Số điện thoại: </string>
+    <string name="address">Địa chỉ nhận hàng: </string>
+    <string name="name_gift">Tên quà tặng: </string>
+    <string name="required_point">Số điểm yêu cầu: </string>
+    <string name="confirm_information">Xác nhận thông tin nhận hàng</string>
+    <string name="exchange_information">Thông tin nhận hàng</string>
+    <string name="your_point">Số điểm của bạn:</string>
+    <string name="giftCount">quà tặng</string>
+    <string name="gift_sort_by">Sắp xếp theo</string>
+    <string name="gift_empty_message">Không có quà phù hợp!\nBạn cố gắng trả lời thêm câu hỏi để được đổi quà nhé! </string>
+    <string name="edit_exchange_address_hint_ward">Chọn Xã/Phường</string>
+    <string name="full_name_error">Vui lòng nhập họ và tên</string>
+    <string name="phone_number_error">Vui lòng nhập số điện thoại</string>
+    <string name="phone_number_invalid">Số điện thoại nhập không đúng định dạng</string>
+    <string name="address_error">Vui lòng nhập địa chỉ nhận hàng</string>
+    <string name="province_error">Vui lòng chọn tỉnh/thành phố</string>
+    <string name="district_error">Vui lòng chọn quận/huyện</string>
+    <string name="ward_error">Vui lòng chọn phường/xã</string>
+    <string name="edit_info">Sửa thông tin</string>
+    <string name="error_max_char">Quá giới hạn ký tự cho phép</string>
+    <string name="sign_in_or_sign_out">Đăng nhập/Đăng ký</string>
+    <string name="gift_history_empty">Không có phần quà nào được đổi.</string>
+    <string name="filter_survey">khảo sát</string>
+    <string name="filter_idea">Ý tưởng phát triển FQA</string>
+    <!--end region-->
+
+    // webview
+    <string name="webview_title">THỂ LỆ CHƯƠNG TRÌNH "A.I THÁCH THỨC - HỎI KHÓ TRÚNG QUÀ</string>
+    <string name="earn_point_link">web-view/ways-earn-point</string>
+    <string name="chemical_link">web-view/bang-tuan-hoan-hoa-hoc</string>
+    <string name="casio_link">web-view/may-tinh-casio</string>
+
+    //Delete account
+    <string name="delete_account_title">Xóa tài khoản</string>
+    <string name="delete_account_success">Xóa thành công</string>
+    <string name="delete_account_subtitle">Điều khoản xóa tài khoản</string>
+    <string name="delete_account_dialog_subtitle">Bạn sẽ không thể đăng nhập lại sau khi xóa, bạn chắc chắn chứ?</string>
+    <string name="delete_account_first"> Xóa tài khoản sẽ xóa thông tin tài khoản, tên và hình đại diện</string>
+    <string name="delete_account_second">Các dữ liệu liên quan đến câu hỏi đã lưu, câu trả lời, điểm số, đánh giá, độ uy tín, xếp hạng sẽ bị xóa</string>
+    <string name="delete_account_third">Sau khi xóa, bạn sẽ không thể đăng nhập, sử dụng và khôi phục tài khoản được nữa</string>
+    <string name="delete_account_success_content">Tài khoản của bạn đã được xóa thành công, bạn có thể tạo lại bất cứ lúc nào để sử dụng FQA</string>
+
+    <!-- Book Answer Detail -->
+    <string name="book_answer_detail_login_required">Bạn cần đăng nhập để bình luận</string>
+
+    // text book search
+    <string name="question">Câu hỏi</string>
+    <string name="post">Bài</string>
+    <string name="chapter">Chương</string>
+    <string name="book">Sách</string>
+    <string name="found_0_result">Tìm thấy 0 kết quả</string>
+    <string name="found_0_result_left">Tìm thấy</string>
+    <string name="found_0_result_right">kết quả</string>
+    <string name="warning_create_comment">Nhập nội dung tối thiếu 20 ký tự và tối đa 5000 ký tự</string>
+    // ban
+    <string name="ban_create_question">Tài khoản của bạn hiện đang bị cấm đặt câu hỏi. Vui lòng thử lại sau</string>
+    <string name="ban_reply_question">Tài khoản của bạn hiện đang bị cấm trả lời câu hỏi. Vui lòng thử lại sau</string>
+
+    // hand book
+    <string name="category_new">Mới nhất</string>
+    <string name="title_hand_book">Cẩm nang học tập</string>
+    <string name="new_lesson_hand_book">Bài viết mới nhất</string>
+    <string name="text_tool_title_hand_book">Gần 1.000 bạn trẻ tham gia thi thử tại Đại hội TOEIC 2022</string>
+    <string name="text_tool_content_hand_book">Gần 1.000 bạn trẻ tham gia thi thử tại Đại hội TOEIC 2022 do Ms Hoa TOEIC tổ chức, trong đó có hơn 100 thí sinh đạt điểm 600 trở lên.</string>
+    <string name="text_reply_commnet">Đang trả lời</string>
+    <string name="more_text">...</string>
+    <string name="about_article">bài viết về</string>
+    <string name="you_watch_it_all">Bạn đã xem hết</string>
+    <string name="you_watch_finished">Bạn đã xem hết rồi</string>
+    <string name="error_action_comment">Nhập nội dung tối thiếu 20 ký tự và tối đa 5000 ký tự</string>
+    <string name="hand_book_empty">Oop! không tìm thấy dữ liệu</string>
+    <string name="hand_book_category_fix_1">Cụm động từ</string>
+    <string name="hand_book_category_fix_2">Phản ứng hóa học</string>
+
+    //tutorial
+    <string name="tutorial_start_content">Để hỗ trợ cho bạn trong quá trình sử dụng sản phẩm, chúng tôi có phần hướng dẫn nhập môn. Bạn muốn tiến hành hướng dẫn?</string>
+    <string name="tutorial_start_continue">Tiến hành hướng dẫn</string>
+    <string name="tutorial_start_cancel">Bỏ qua hướng dẫn</string>
+    <string name="first_tutorial_title">Chạm vào Đặt câu hỏi để tiến hành đặt câu hỏi ngay nào.</string>
+    <string name="first_tutorial_create_question_title">Nhập nội dung của câu hỏi của bạn tại đây.</string>
+    <string name="second_tutorial_create_question_title">Chọn đầy đủ các mục ở trên.</string>
+    <string name="first_tutorial_continue">Tiếp theo</string>
+    <string name="second_tutorial_continue">Đã hiểu</string>
+    <string name="second_tutorial_content">Danh sách các câu hỏi của các thành viên khác trên toàn quốc.Bạn có thể tham gia vào trả lời các câu hỏi để nhận được điểm số.</string>
+    <string name="final_tutorial_create_question_content">Sau khi nhập xong câu hỏi, nhấp vào Đăng câu hỏi để đặt câu hỏi nhé.</string>
+    <string name="third_tutorial_create_question_content">Bạn có thể gửi hình ảnh câu hỏi bằng cách chọn Chụp ảnh hoặc chọn ảnh từ Bộ sưu tập.</string>
+
+    // rule create question
+
+    <string name="create_question_rule">Lưu ý:\n • Đặt câu hỏi đủ thông tin, có ý nghĩa \n • Không gian lận điểm \n • Không đặt câu hỏi có chứa nội dung phản cảm</string>
+
+    // Forgot Password
+
+    <string name="forgot_password_title">Quên mật khẩu</string>
+    <string name="forgot_password_input_email">Nhập email của bạn</string>
+    <string name="forgot_password_send_password">Gửi mật khẩu cho tôi</string>
+
+
+    // practice
+    <string name="practice_home">Ôn luyện</string>
+    <string name="practice_filter">Bộ lọc</string>
+    <string name="practice_tab_exam">Danh sách đề</string>
+    <string name="practice_tab_practicing">Đề đang luyện</string>
+    <string name="practice_tab_history_practice">Lịch sử luyện</string>
+    <string name="banner_home">TRA CỨU ĐIỂM CHUẨN\nCAO ĐẲNG - ĐẠI HỌC</string>
+    <string name="discover">Khám phá ngay</string>
+    <string name="link_banner">https://fqa.vn/tra-cuu-diem-chuan-dai-hoc/</string>
+    <string name="notify_count">99+</string>
+    <string name="has_answer">Có đáp án</string>
+    <string name="update_answer">Đang cập nhật đáp án</string>
+    <string name="has_revise">Có ôn luyện</string>
+    <string name="has_revised">Đã luyện</string>
+    <string name="no_exam">Không có đáp án</string>
+    <string name="updated">Đang cập nhật</string>
+    <string name="practice_empty">Hiện chưa có đề thi trong danh\nmục này, bạn quay lại sau nhé!</string>
+    <string name="practice_history_empty">Bạn chưa luyện đề thi nào</string>
+    <string name="practice_history_empty_this_exam">Bạn chưa luyện đề này lần nào</string>
+    <string name="practiced_empty">Hiện tại bạn chưa luyện đề thi nào</string>
+    <string name="practice_tag_empty">Không có kết quả nào phù hợp với tag\ncủa bạn</string>
+    <string name="no_answer">Không có đáp án</string>
+    <string name="exam_end">Bạn đã xem hết kết quả rồi!</string>
+    <string name="tag_practice">[TAG] %s</string>
+    <string name="nation">Quốc gia</string>
+    <string name="hint_search_practice">Tìm kiếm đề thi</string>
+    <string name="hint_search_member">Tìm kiếm thành viên...</string>
+    <string name="notify_download">Downloading File</string>
+    <string name="download_exam_error">Tải đề thi không thành công, vui lòng thử lại</string>
+    <string name="download_answer_error">Tải đáp án không thành công, vui lòng thử lại</string>
+    <string name="exam_type">(Đề thi)</string>
+    <string name="answer_type">(Đáp án)</string>
+    <string name="exam_history_time_finish_exam">Thời gian nộp bài</string>
+    <string name="exam_history_time_finish">Thời gian hoàn thành</string>
+    <string name="exam_history_study_status">Trạng thái luyện</string>
+    <string name="exam_history_subject">Môn</string>
+    <string name="exam_history_class">Lớp</string>
+    <string name="exam_history_years">Năm học</string>
+    <string name="exam_history_province">Tỉnh/Thành</string>
+    <string name="exam_history_see_exam">Xem đề thi</string>
+    <string name="exam_history_see_result">Xem kết quả</string>
+    <string name="exam_history_do_exam_continue">Tiếp tục luyện</string>
+    <string name="exam_history_complete">Hoàn thành</string>
+    <string name="exam_history_doing">Đang làm</string>
+
+    // survey
+    <string name="idea_survey">Ý tưởng phát triển FQA</string>
+    <string name="topic_survey">Chủ đề</string>
+    <string name="title_idea">Ý tưởng</string>
+    <string name="input_content">Nhập nội dung*</string>
+    <string name="input_idea">Hãy nhập ý tưởng của bạn</string>
+    <string name="submit_survey">Hoàn Thành</string>
+    <string name="survey">Khảo sát &amp; Góp ý</string>
+    <string name="survey_user">Khảo sát người dùng</string>
+    <string name="survey_type">Loại khảo sát</string>
+    <string name="post_image">Tải ảnh lên</string>
+    <string name="question_number">%s. </string>
+    <string name="image_survey">Hình ảnh</string>
+    <string name="choose_topic_title">Chọn chủ đề</string>
+    <string name="choose_answer_title">Chọn đáp án</string>
+    <string name="content_survey_success">Admin cảm ơn bạn rất nhiều, những\nđóng góp của bạn chắc chắn sẽ\ngiúp cộng đồng FQA phát triển hơn\nđó!</string>
+    <string name="back_to_home">Quay về trang chủ</string>
+    <string name="contribute_ideas">Đóng góp ý kiến phát triển FQA</string>
+    <string name="make_survey">Làm khảo sát</string>
+    <string name="title_local">Ý tưởng của bạn được gửi\nthành công!</string>
+    <string name="title_remote">Khảo sát của bạn được gửi\nthành công!</string>
+    <string name="warning_input">Vui lòng nhập nội dung</string>
+    <string name="warning_input_content">Vui lòng chọn %s</string>
+
+    //answer
+    <string name="answer_reply_first">Phản hồi câu trả lời của bạn trên </string>
+    <string name="discuss_reply_first">hỏi chi tiết trên </string>
+    <string name="answer_reply_question">câu hỏi </string>
+    <string name="answer_reply_question_of"> của</string>
+    <string name="answer_retry">Thử lại câu trả lời của bạn</string>
+
+    // lịch sử nhân thưởng
+    <string name="reward_history_title">Lịch sử nhận thưởng</string>
+    <string name="reward_history_achievements">Thành tích</string>
+    <string name="reward_history_leader_board">BXH</string>
+    <string name="reward_history_state">Trạng thái</string>
+    <string name="reward_history_note">Ghi chú</string>
+    <string name="reward_history_image_confirm">Ảnh xác nhận</string>
+    <string name="reward_history_top">Top</string>
+    <string name="reward_history_pending_send">Chưa gửi</string>
+    <string name="reward_history_sending">Đang gửi</string>
+    <string name="reward_history_received">Đã nhận</string>
+    <string name="reward_history_no_received">Không nhận được</string>
+    <string name="reward_history_refused_receive">Từ chối nhận</string>
+    <string name="reward_history_enthusiastic">BXH hăng hái</string>
+    <string name="reward_history_wise">BXH thông thái</string>
+    <string name="reward_history_active">BXH năng nổ</string>
+    <string name="reward_history_studious">BXH ham học hỏi</string>
+    <string name="reward_history_data_empty">Bạn chưa có phần thưởng nào,\nhãy tiếp tục cố gắng nha</string>
+    <string name="voucher_mission_title">Để nhận quà tặng voucher bạn\ncần hoàn thành một nhiệm vụ\nsau</string>
+    <string name="create_question_voucher_mission">Đặt 1 câu hỏi lịch sử</string>
+    <string name="one_gift">+1 Voucher</string>
+
+    // Connect
+    <string name="network_connected">Bạn đã khôi phục kết nối internet</string>
+    <string name="network_disconnected">Không có kết nối mạng</string>
+    <string name="network_lost_title">Không có mạng\nVui lòng kiểm tra kết nối mạng</string>
+    <string name="search_network_lost">Có thể có kết quả khác\nXem thêm khi bạn quay lại trực tuyến</string>
+    <string name="network_retry">Thử lại</string>
+    <string name="question_detail_title">Hỏi chi tiết</string>
+    <string name="content_poup_error">Đã xảy ra lỗi kết nối. Vui lòng kiểm tra kết nối internet của bạn hoặc thử lại sau</string>
+    <string name="title_poup_error">Lỗi kết nối</string>
+    <string name="title_confirm_poup_error">OK</string>
+
+    //exception
+    <string name="no_find_comment">không tìm thấy CommentArticles</string>
+    <string name="no_cast_author_id_exception">không thể cast sang authorID</string>
+    <string name="no_cast_int_exception">không thể cast sang int</string>
+    <string name="no_cast_topic_article_exception">không thể cast sang TopicArticleWebViewResponse</string>
+    <string name="no_cast_navigation_article_exception">không thể cast sang NavigationArticleWebViewResponse</string>
+    <string name="invalid_data_exception">Invalid data type</string>
+    <string name="no_find_data_comment_exception">Ko tìm thấy data của commment info</string>
+
+    //use case
+    <string name="token_must_not_null">token must not null</string>
+    <string name="email_must_not_null">email must not null</string>
+    <string name="fid_must_not_null">fid must not null</string>
+    <string name="not_user">Không có user!</string>
+    <string name="role_register_account">Tên đăng phải chứa ít nhất 6 ký tự và tối đa 50 ký tự</string>
+    <string name="role_register_password">Mật khẩu phải chứa ít nhất 8 ký tự và tối đa 50 ký tự</string>
+    <string name="role_register_account_second">Tên đăng nhập không chứa ký tự đặc biệt</string>
+    <string name="role_reset_not_null">token or newPassword must not null</string>
+    <string name="role_password_not_null">password must not be null!</string>
+    <string name="address_is_null">Address is null</string>
+    <string name="time_from_must_not_null">timeFrom must not null</string>
+    <string name="time_to_must_not_null">timeTo must not null</string>
+    <string name="top_type_not_null">topType must not null</string>
+    <string name="article_id_not_null">articleId must not null</string>
+    <string name="content_not_null">content must not null</string>
+    <string name="comment_id_not_null">commentId must not null</string>
+    <string name="react_type_not_null">reactType must not null</string>
+    <string name="reaction_id_not_null">reactionId must not null</string>
+    <string name="key_not_null">key must not null</string>
+    <string name="search_key_not_null">searchKey must not null</string>
+    <string name="limit_not_null">limit must not null</string>
+    <string name="author_id_not_null">authorId must not null</string>
+    <string name="district_id_not_null">districtId must not null</string>
+    <string name="from_date_not_null">fromDate must to null</string>
+    <string name="to_date_not_null">toDate must to null</string>
+    <string name="notification_id_not_null">notification id must not null</string>
+    <string name="question_id_not_null">questionId must not null</string>
+    <string name="answer_id_not_null">answerId must not null</string>
+    <string name="category_id_not_null">categoryId must not null</string>
+    <string name="book_id_not_null">bookId must not null</string>
+    <string name="reason_id_not_null">reasonId must not null</string>
+    <string name="point_not_null">point must not null</string>
+    <string name="gradle_id_not_null">gradleId must not null</string>
+    <string name="page_not_null">page must not null</string>
+    <string name="list_bank_info_null">list bank info null</string>
+    <string name="size_not_null">size must not null</string>
+    <string name="type_not_null">type must not null</string>
+    <string name="tag_id_not_null">tagId must not null</string>
+    <string name="collection_name_not_null">collectionName must not empty</string>
+    <string name="collection_id_not_null">collectionId must not null</string>
+    <string name="collection_not_exist">Bộ sưu tập không tồn tại</string>
+    <string name="content_not_is_empty">Nội dung không được để trống</string>
+    <string name="content_question_not_is_empty">Nội dung câu hỏi không được để trống</string>
+    <string name="content_has_char_prohibited">Nội dung có chứa từ bị cấm!</string>
+    <string name="post_question_no_success">Đăng câu hỏi không thành công</string>
+    <string name="hot_new">Tin hot:</string>
+    <string name="here">Tại đây</string>
+    <string name="codeRegId_not_null">codeRegId must not empty</string>
+
+    <string name="welcome_fqa">Chào mừng bạn đến với nền tảng hỏi đáp FQA!</string>
+
+    //policy
+    <string name="text1">ĐIỀU KHOẢN CHÍNH SÁCH KHI SỬ DỤNG FQA</string>
+    <string name="text2">Chào mừng bạn đến với FQA!</string>
+    <string name="text3">FQA là một nền tảng Hỏi và Đáp cho phép mọi người chia sẻ và phát triển kiến thức. Tại FQA, người dùng đặc biệt là tất cả các bạn học sinh có thể thỏa sức đặt câu hỏi để trao đổi cũng như chia sẻ kiến thức từ đó khuyến khích học sinh hướng đến môi trường giáo dục thân thiện, đổi mới và sáng tạo.</string>
+    <string name="text4">Tại FQA, chúng tôi có một số những điều khoản sử dụng dành cho người dùng. Trước khi bắt đầu, vui lòng đọc kĩ các điều khoản dưới đây để có những trải nghiệm tốt nhất.</string>
+    <string name="text5">I. Quy định chung</string>
+    <string name="text6">Thỏa thuận chung và sử dụng dịch vụ là những điều khoản hợp pháp đối với việc sử dụng các dịch vụ mà chúng tôi cung cấp. Việc sử dụng các dịch vụ của chúng tôi đồng nghĩa với việc bạn đồng ý với bản quy định này. Nội dung của bản quy định này có thể được cập nhật thường xuyên mà không cần thông báo khi chúng tôi cảm thấy nó không còn phù hợp. Vì vậy, bạn có trách nhiệm thường xuyên cập nhật, theo dõi các thông tin liên quan đến nền tảng FQA của chúng tôi để có thể cập nhật được những thay đổi mới nhất. Việc tiếp tục sử dụng dịch vụ sau khi được cập nhật đồng nghĩa với việc bạn chấp nhận và đồng ý tuân thủ theo những quy định của bản quy định mới. Ở đây chúng tôi gọi những người dùng dịch vụ FQA là Người Sử Dụng. Chúng tôi yêu cầu bất kỳ Người Sử Dụng nào khi sử dụng dịch vụ của FQA phải chấp nhận tất cả các Điều khoản mới mà chúng tôi cung cấp cho Dịch vụ. Nếu bạn không chấp thuận những điều khoản này, bạn phải ngưng sử dụng dịch vụ của Chúng tôi.</string>
+    <string name="text7">II. Điều khoản đăng kí</string>
+    <string name="text8">Khi đăng ký tài khoản và cung cấp đầy đủ chính xác các thông tin cá nhân, bạn có thể sử dụng các tính năng của FQA. Việc cung cấp đầy đủ thông tin chính xác sẽ giúp FQA dễ dàng hỗ trợ bạn khi cần thiết. Khi đăng ký tài khoản, điều đó đồng nghĩa với việc bạn đồng ý chia sẻ các thông tin cá nhân của bạn cho FQA. Người dùng chịu mọi trách nhiệm khi cung cấp thông tin không chính xác, dẫn đến việc FQA không hỗ trợ kịp thời hoặc không thể liên hệ được khi cần thiết.</string>
+    <string name="text9">III. Các hành vi cấm khi sử dụng FQA</string>
+    <string name="text10">- Đăng tải nội dung nội dung trái pháp luật, có hại, đe dọa, lạm dụng, quấy rối, gây hoang mang, lo lắng, xuyên tạc, phỉ báng, xúc phạm, khiêu dâm, bôi nhọ, xâm phạm quyền riêng tư của người khác, gây căm phẫn, hoặc phân biệt chủng tộc, dân tộc hoặc bất kỳ nội dung không đúng đắn nào khác.
+\n- Sử dụng FQA cho các mục đích thương mại, gian lận trong các kỳ thi, kỳ kiểm tra hoặc các mục đích phi giáo dục khác.
+\n- Có những hành vi, thái độ làm tổn hại đến uy tín của các sản phẩm của công ty phát hành dưới bất kỳ hình thức nào, phương thức nào. Mọi vi phạm sẽ bị tước bỏ mọi quyền lợi liên quan đối với dịch vụ hoặc xử lý trước pháp luật nếu cần thiết.
+\n- Phát tán hoặc truyền đạt các nội dung có chứa virus, malware hoặc tương tự có khả năng phá hoại, ăn cắp dữ liệu người dùng, ảnh hưởng đến hệ thống hoặc ảnh hưởng đến trải nghiệm của người dùng trong hệ thống.
+\n- Sử dụng các công cụ tự động, robot, web automation…để khai thác thông tin, cướp quyền truy cập hoặc phá hoại hệ thống FQA.
+\n- Phát tán thông tin cá nhân của người khác, bôi nhọ, nói xấu, hoặc có các hành vi làm ảnh hưởng đến trải nghiệm cũng như tâm lý, cuộc sống của người khác. Các nội dung của bạn không được chứa liên kết tới bên thứ ba, hoặc sao chép từ bên thứ ba, hoặc chứa các nội dung quảng cáo cho bên thứ ba. Nếu như cố tình vi phạm, bạn phải chịu hoàn toàn mọi trách nhiệm trước pháp luật Việt Nam.
+\n- Đưa nội dung về Đảng Cộng sản Việt Nam, Nhà nước Việt Nam, các thể chế chính trị, lịch sử, các lãnh tụ vào bàn luận trong những chủ đề không liên quan.</string>
+    <string name="text11">IV. Quyền lợi và trách nhiệm của Người Sử Dụng dịch vụ của FQA</string>
+    <string name="text12">4.1. Quyền lợi của người sử dụng dịch vụ FQA</string>
+    <string name="text13">- Được sử dụng các tính năng dịch vụ của nền tảng FQA trừ các dịch vụ bị cấm theo quy định của pháp luật.
+\n- Người sử dụng được quyền thay đổi, bổ sung thông tin tài khoản cá nhân
+\n- Được bảo vệ thông tin riêng và thông tin cá nhân theo Chính sách bảo mật và quy định của pháp luật.</string>
+    <string name="text14">4.2. Trách nhiệm của người sử dụng dịch vụ FQA</string>
+    <string name="text15">- Người sử dụng cần cung cấp thông tin chính xác khi đăng ký, và chịu hoàn toàn trách nhiệm về những thông tin này, bạn phải chịu trách nhiệm toàn bộ các thông tin bạn cung cấp.
+\n- Người sử dụng chịu trách nhiệm bảo vệ mật khẩu cá nhân, và trách nhiệm của việc đăng nhập bằng mật khẩu của bạn, hoặc không do bạn trực tiếp đăng nhập vào FQA. FQA không chịu trách nhiệm trong trường hợp người dùng tiết lộ, chia sẻ mật khẩu cho bên thứ cho ba hoặc không thực hiện các biện pháp cần thiết bảo vệ thông tin bảo mật khi truy cập vào FQA trên môi trường Internet.
+\n- Người sử dụng chịu trách nhiệm về nội dung thông tin do mình lưu trữ, cung cấp, truyền đưa trên mạng xã hội , phát tán thông tin qua đường liên kết trực tiếp do mình thiết lập.
+\n- Nếu phát hiện những nghi vấn về việc sử dụng trái phép tài khoản của mình hoặc bất cứ hành vi vi phạm nào của thành viên khác trên FQA, hãy thông báo cho chúng tôi qua email hoặc gọi điện cho chúng tôi. (Hotline: 1900636019 | Email: info@fqa.vn)
+\n- Tuân thủ thỏa thuận quản lý, cung cấp và sử dụng dịch vụ mạng xã hội.
+\n- Cam kết thực hiện trách nhiệm bảo đảm sử dụng hợp pháp nội dung thông tin số đưa lên đăng tải trên hệ thống mạng Internet và mạng viễn thông.
+\n- Khi đồng ý sử dụng dịch vụ FQA, Người sử dụng phải chấp hành, tuân thủ quy chế quản lý, cung cấp và sử dụng dịch vụ của FQA. FQA có quyền, và không cần thông báo trước, điều chỉnh những dịch vụ hay xây dựng quy chế mới.</string>
+
+    <string name="text16">V. Thu thập, xử lý các dữ liệu thông tin cá nhân người dùng</string>
+    <string name="text17">5.1. Chúng tôi nhận được thông tin khác nhau về bạn, bao gồm:</string>
+    <string name="text18">- Thông tin của bạn
+\n- Khi bạn đăng ký tài khoản FQA, bạn được yêu cầu cung cấp thông tin cá nhân như tên, ngày sinh và giới tính,…</string>
+    <string name="text19">5.2. Cách chúng tôi sử dụng thông tin nhận được:</string>
+    <string name="text20">- Nhằm mục đích điều hành và cải tiến các dịch vụ sử dụng FQA, tăng cường tiện ích cho Người Sử Dụng và phân phối các sản phẩm và dịch vụ của chúng tôi.
+\n- Để hiển thị thông tin theo yêu cầu của bạn.
+\n- Để sử dụng cho các mục đích chăm sóc khách hàng, hỗ trợ người dùng của FQA
+\n- Tìm và ngăn chặn gian lận</string>
+    <string name="text21">5.3. Thông tin của bạn có thể chia sẻ với ai.</string>
+    <string name="text22">Chúng tôi không tiết lộ cho bên thứ ba thông tin cá nhân của bạn, thông tin về việc sử dụng FQA của bạn trừ những trường hợp sau: Chúng tôi có thể tiết lộ thông tin như vậy theo yêu cầu pháp lý của cơ quan Nhà nước: (a) tuân theo các yêu cầu pháp lý hoặc chiếu theo quy trình của luật pháp; (b) bảo vệ các quyền hay tài sản của các công ty đối tác; (c) ngăn chặn tội phạm hoặc bảo vệ an ninh quốc gia; hoặc (d) bảo vệ an toàn cá nhân của những người sử dụng hay công chúng.</string>
+    <string name="text23">5.4. Bạn có thể truy cập, cập nhật thông tin của bạn như thế nào?</string>
+    <string name="text24">Nếu bạn là người sử dụng đã đăng ký và quên mật khẩu, bạn có thể nhận lại nó bằng cách dùng tính năng “Quên mật khẩu” hoặc liên hệ với chúng tôi. Chúng tôi không thể cung cấp mật khẩu của bạn theo các cách khác.</string>
+    <string name="text25">Cookie và Web Beacons</string>
+    <string name="text26">Giống như bất kỳ trang Web nào khác, FQA sử dụng ‘cookie’. Các cookie này được sử dụng để lưu trữ thông tin bao gồm sở thích của khách truy cập và các trang trên trang web mà khách đã truy cập. Thông tin này được sử dụng để tối ưu hóa trải nghiệm của người dùng bằng cách tùy chỉnh các nội dung trên trang Web của chúng tôi dựa trên loại trình duyệt của khách truy cập và các thông tin khác. Để biết thêm thông tin về cookie, vui lòng đọc bài viết Cookie từ Trình tạo chính sách bảo mật.</string>
+    <string name="text27">VI. Giới hạn và trách nhiệm</string>
+    <string name="text28">- Chúng tôi khẳng định, việc đăng tải nội dung, chia sẻ các thông tin trên FQA hoàn toàn xuất phát từ ý chí và quan điểm cá nhân của Người Sử Dụng. Chúng tôi tạo môi trường cho Người Sử Dụng giao lưu, chia sẻ thông tin mà không tham gia vào quá trình đăng tải thông tin của Người Sử Dụng cũng như không chịu trách nhiệm với bất cứ thông tin không đúng hoặc không chính xác nào trong các nội dung được đăng tải bởi Người Sử Dụng. Chúng tôi cố gắng tạo ra một cơ chế chia sẻ thân thiện và hữu ích cho tất cả cộng đồng. Vì thế, hãy chắc chắn rằng bạn đã đọc, hiểu, đồng ý, chấp nhận các quy định của chúng tôi trước khi sử dụng bất kỳ dịch vụ nào trên FQA.
+\n- Nếu bạn muốn chúng tôi thông báo cho bạn về bất kỳ sự thay đổi nào của Bản Thỏa thuận cung cấp và sử dụng dịch vụ mạng xã hội FQA này trong tương lai, xin vui lòng truy cập website của chúng tôi. Chúng tôi khuyến cáo bạn nên cập nhật các quy định này cho mỗi lần vào truy cập và sử dụng các dịch vụ trên FQA.
+\n- Để sử dụng cho các mục đích chăm sóc khách hàng, hỗ trợ người dùng của FQA
+\n- Các nội dung cung cấp bởi chatbot sử dụng công nghệ chatGPT chỉ mang tính chất tham khảo, FQA sẽ không chịu bất cứ trách nhiệm gì về tính chính xác của nội dung được cung cấp bởi chatGPT</string>
+    <string name="text29">VII. Thông tin trẻ em</string>
+    <string name="text30">- Chúng tôi đề cao vấn đề tăng cường bảo vệ trẻ em khi sử dụng Internet. Bởi vậy mà chúng tôi khuyến khích cha mẹ và người giám hộ quan sát, tham gia hoặc hướng dẫn hoạt động trực tuyến cho trẻ em
+\n- FQA không cố tình thu thập bất kỳ thông tin nhận dạng cá nhân nào từ trẻ em dưới 13 tuổi. Nếu bạn cho rằng con bạn đã cung cấp loại thông tin này trên trang web của chúng tôi, chúng tôi đặc biệt khuyến khích bạn liên hệ với chúng tôi ngay lập tức và chúng tôi sẽ cố gắng hết sức để loại bỏ kịp thời thông tin đó từ hồ sơ.</string>
+    <string name="text31">VIII. Thu thập thông tin</string>
+    <string name="text32">- FQA được quyền thu thập toàn bộ các thông tin mà người dùng cung cấp để sử dụng cho những mục đích cụ thể. FQA có quyền nhưng không có nghĩa vụ phải giám sát, theo dõi và lưu trữ các nội dung, hoạt động của người dùng để bảo vệ sự an toàn của bạn và sự an toàn của những người khác. Bằng việc đăng ký tài khoản tại FQA, bạn đồng ý với việc giám sát, theo dõi và lưu trữ nội dung này của chúng tôi.
+\n- Các thông tin được thu thập nhằm phục vụ người dùng một cách tốt nhất, nhanh chóng hỗ trợ và giải đáp các thắc mắc, vấn đề mà người dùng gặp phải, cũng như cải tiến, nâng cao chất lượng dịch vụ. Thông qua các thông tin cá nhân của bạn, FQA khi cần thiết có quyền gửi cho bạn các thông báo, các nội dung có liên quan mà bạn có thể quan tâm, cũng như liên hệ trực tiếp về các vấn đề kỹ thuật, bảo mật hoặc trải nghiệm khi sử dụng. Dữ liệu cá nhân của người dùng sẽ được lưu trữ cho đến khi có yêu cầu hủy bỏ hoặc tự người dùng đăng nhập và xóa bỏ các nội dung được lưu trữ. Trong những trường hợp còn lại thông tin cá nhân sẽ được bảo mật và lưu trữ tại hệ thống máy chủ của FQA .</string>
+    <string name="text33">IX. Liên hệ</string>
+    <string name="text34">- Trong trường hợp có bất cứ vấn đề gì phát sinh trong quá trình sử dụng (ngoại trừ các vấn đề liên quan câu hỏi, câu trả lời, bình luận và thời gian phản hồi), vui lòng liên hệ với FQA thông qua Email: info@fqa.vn hoặc Tổng đài: 1900636019.</string>
+    <!--lucky wheel-->
+    <string name="lucky_wheel_title">Vòng quay may mắn</string>
+
+    <!-- notification setting-->
+    <string name="notification_setting">Cài đặt thông báo</string>
+    <string name="notification_mark_reading">Đánh dấu đã đọc</string>
+    <string name="notification_reading_all">Bạn đã xem hết rồi</string>
+    <string name="notification_setting_title">Cài đặt thông báo</string>
+    <string name="notification_setting_method_receive">Cho phép nhận thông báo</string>
+    <string name="notification_setting_turn_off">Tắt thông báo</string>
+    <string name="notification_setting_turn_off_pending">Tạm dừng thông báo</string>
+    <string name="notification_setting_will_receive">Bạn muốn nhận thông báo về</string>
+    <string name="notification_setting_notice">Có thể FQA vẫn gửi cho bạn những thông báo quan trọng về tài khoản và nội dung ngoài cài đặt.</string>
+    <string name="notification_setting_mention">Nhắc đến</string>
+    <string name="notification_setting_your_question">Câu hỏi của bạn</string>
+    <string name="notification_setting_your_question_follow">Câu hỏi bạn theo dõi</string>
+    <string name="notification_setting_your_answer">Câu trả lời của bạn</string>
+    <string name="option_setting_notification_title">Nơi bạn nhận những thông báo này</string>
+    <string name="option_setting_notification_in_app">Thông báo trong ứng dụng</string>
+    <string name="option_setting_notification_jpsuh">Thông báo đẩy</string>
+    <string name="option_setting_notification_guide">Nhận thông báo đẩy để không bỏ lỡ bất kỳ thông tin nào từ FQA. Bạn có thể tắt thông báo bất kỳ lúc nào.</string>
+    <string name="option_setting_notification_turn_off">Tắt</string>
+    <string name="option_setting_notification_turn_on">Bật</string>
+    <string name="setting_dialog_title">Bạn sẽ không nhận được thông báo đẩy\n nhưng có thể xem thông báo mới khi mở FQA.</string>
+    <string name="mention_setting">Nhận thông báo khi bạn được nhắc đến</string>
+    <string name="setting_fifteen_minutes">15 phút</string>
+    <string name="setting_one_hour">1 giờ</string>
+    <string name="setting_four_hour">4 giờ</string>
+    <string name="setting_eight_hour">8 giờ</string>
+    <string name="setting_until_open">Cho đến khi được mở lại</string>
+    <string name="setting_until_time">Đến</string>
+    <string name="handbook_category_id">5</string>
+    <string name="mission_login">Đăng nhập vào hệ thống</string>
+    <string name="mission_create_question">Đặt 1 câu hỏi</string>
+
+    // TutorRegister
+    <string name="tutor_register_title">Đăng ký làm gia sư</string>
+    <string name="tutor_register_rule"><b>Trách nhiệm của Gia sư FQA:</b>\n
+<p>* Trả lời câu hỏi gửi về cho gia sư một cách nhanh và chính xác nhất.</p>\n
+<b>Quyền lợi của Gia sư FQA: </b>\n
+        <p>* Nhận thù lao tương xứng từ các thành viên đặt câu hỏi cho gia sư.</p>\n
+        <b>Điều kiện để trở thành Gia sư FQA:</b>\n
+<p>* Đã đăng ký tài khoản FQA</p>\n
+<p>* Từ 15 tuổi trở lên.</p>\n
+<p>* Có chứng minh thư hoặc căn cước công dân hợp lệ.</p>\n
+<p>* Nếu bạn đang học Trung học phổ thông, cần có giấy khen hoặc giấy chứng nhận là đang học Trung học phổ thông.</p>\n
+<p>* Nếu bạn là sinh viên, bạn cần có Thẻ sinh viên.</p>\n
+<p>* Nếu bạn đã đi làm, bạn cần có giấy tờ chứng mình nghề nghiệp hiện tại phù hợp để trở thành gia sư FQA.</p>\n
+<p>* Ưu tiên có các thành tích, giải thưởng nổi trội trong quá trình học tập.</p>\n
+        <p><b>Điều khoản và cam kết:</b></p>\n
+<p>* Nghiêm túc khi đăng ký trở thành gia sư FQA</p>\n
+<p>* FQA hoàn toàn có quyền thu hồi toàn bộ phần thưởng/thù lao hoặc gỡ bỏ khỏi danh sách gia sư FQA nếu như:</p>\n
+<p><t>* Bạn bị phát hiện sử dụng các   phần mềm khác can thiệp để gian lận.</t></p>\n
+<p><t>* Bạn lợi dụng lỗ hổng của hệ thống để trục lợi cá nhân.</t></p>\n
+<p><t>* Bạn không tham gia họat động Gia sư trong 1 thời gian dài.</t></p></string>
+    \n
+    <string name="tutor_register_coming_soon">Tính năng Gia sư sắp được\n cập nhật trên FQA, đăng ký\n trước NGAY để trở thành 1\n trong những gia sư tài năng\n của chúng tôi nhé</string>
+    <string name="tutor_register_info_tab">Thông tin chung</string>
+    <string name="tutor_register_survey_tab">Đăng ký làm gia sư</string>
+    <string name="tutor_register_survey_title">Đăng ký làm gia sư FQA</string>
+    <string name="tutor_register_survey_require_first">Dấu </string>
+    <string name="tutor_register_survey_require_second">(*)</string>
+    <string name="tutor_register_survey_require_third"> là trường bắt buộc nhập</string>
+    <string name="tutor_register_survey_name"><b>1. Họ và tên </b></string>
+    <string name="tutor_register_survey_name_hint">Nhập họ và tên của bạn</string>
+    <string name="tutor_register_survey_phone_hint">Số điện thoại của bạn</string>
+    <string name="tutor_register_survey_email_hint">Nhập email của bạn</string>
+    <string name="tutor_register_survey_email"><b>2. Email</b> (Nên sử dụng email đã xác thực trong hồ sơ cá nhân)</string>
+    <string name="tutor_register_survey_phone"><b>3. Số điện thoại</b> (Nên sử dụng SĐT đã điền trong Hồ sơ cá nhân)</string>
+    <string name="tutor_register_survey_email_label_bold">2. Email</string>
+    <string name="tutor_register_survey_email_label_normal">(Nên sử dụng email đã xác thực trong hồ sơ cá nhân)</string>
+    <string name="tutor_register_survey_phone_label_bold">3. Số điện thoại</string>
+    <string name="tutor_register_survey_phone_label_normal"> (Nên sử dụng SĐT đã điền trong Hồ sơ cá nhân)</string>
+    <string name="tutor_register_survey_type"><b>4. Hiện tại bạn đang là</b></string>
+    <string name="tutor_register_survey_citizen_identification_card"><b>5. Ảnh chứng minh thư/Căn cước công dân</b></string>
+    <string name="tutor_register_survey_citizen_identification_card_sub">Tối đa 5 ảnh, mỗi ảnh không quá 5mb, định dạng phù hợp: PNG, JPG, JPEG, SVG</string>
+    <string name="tutor_register_survey_certificate"><b>6. Ảnh bằng cấp, thẻ sinh viên, bằng khen,...</b></string>
+    <string name="tutor_register_survey_talent"><b>7. Bạn đăng ký làm gia sư FQA với sở trường là</b></string>
+    <string name="tutor_register_survey_subject_clazz"><b>8. Bạn muốn làm gia sư cho môn và lớp nào?</b></string>
+    <string name="tutor_register_survey_about"><b>9. Giới thiệu thêm về bản thân:</b></string>
+    <string name="tutor_register_survey_about_me">Viết giới thiệu bản thân...</string>
+    <string name="tutor_register_survey_image_not_support">Dung lượng tối đa 5MB. Định dạng ảnh: PNG, JPG, JPEG, SVG</string>
+    <string name="tutor_register_survey_upload_image">Tải ảnh lên</string>
+    <string name="tutor_register_survey_upload_image_limit">Chọn tối đa 5 ảnh</string>
+    <string name="tutor_register_survey_request_question">Trả lời câu hỏi</string>
+    <string name="tutor_register_survey_solve_exam">Giải đề thi</string>
+    <string name="tutor_register_survey_live_follow">Kèm trực tiếp</string>
+    <string name="tutor_register_survey_tick_all">Chọn tất cả</string>
+    <string name="tutor_register_survey_job_student">Sinh viên</string>
+    <string name="tutor_register_survey_job_pupil">Học sinh</string>
+    <string name="tutor_register_survey_job_teacher">Giáo viên</string>
+    <string name="tutor_register_survey_job_teacher_next_level">Giảng viên cao đẳng, đại học</string>
+    <string name="tutor_register_survey_job_teacher_other">Khác</string>
+    <string name="tutor_register_survey_media_empty">Chưa có tệp nào được chọn</string>
+    <string name="tutor_register_survey_name_required">Họ và tên không được bỏ trống</string>
+    <string name="tutor_register_survey_email_required">Email không được bỏ trống</string>
+    <string name="tutor_register_survey_email_not_format">Email không đúng định dạng</string>
+    <string name="tutor_register_survey_email_phone_required">SĐT không đuợc bỏ trống</string>
+    <string name="tutor_register_survey_id_card_photo_required">Bạn chưa tải ảnh lên</string>
+    <string name="tutor_register_survey_email_subject_class_required">Chọn ít nhất 1 ô</string>
+    <string name="tutor_register_survey_max_5_image_required">Số lượng ảnh bạn tải lên không được quá 5 ảnh</string>
+    <string name="tutor_profile_label">Hồ sơ gia sư FQA</string>
+    <string name="video_lesson">Video bài giảng</string>
+    <string name="add_lesson_video">Hiện thêm</string>
+    <string name="collapse_lesson_video">Thu gọn</string>
+    <string name="no_data">Không có dữ liệu</string>
+
+    <!-- history photo-->
+    <string name="history_photo">Lịch sử ảnh</string>
+    <string name="history_photo_empty">Bạn chưa có lịch sử tìm kiếm nào!</string>
+
+    <!--Result -->
+    <string name="result_tile">Kết quả</string>
+
+    <!--camera -->
+    <string name="image_quality_valid"> Ảnh đạt tiêu chuẩn</string>
+    <string name="capture_image_text_center">Tính năng hiện chỉ khả dụng với môn Toán</string>
+    <string name="image_quality_invalid"> Ảnh không đạt tiêu chuẩn</string>
+    <string name="result_problem_note">*Tính năng đang trong giai đoạn thử nghiệm. Và sẽ được cải thiện trong các phiên bản tiếp theo.</string>
+    <string name="result_problem_note_click">tại đây.</string>
+    <string name="result_problem_question_title">Câu hỏi: </string>
+    <string name="result_problem_answer_title">Trả lời: </string>
+    <string name="result_problem_title_empty">Không tìm thấy lời giải!</string>
+    <string name="result_problem_content_empty">Chưa có đề bài mà bạn muốn tìm ư? Hãy đặt câu hỏi ngay để được giải đáp và nhận quà đặc biệt từ FQA nào!!!</string>
+    <string name="error_network_title">Kết nối mạng không khả dụng</string>
+    <string name="error_network_subtitle">Vui lòng kiểm tra lại kết nối mạng của bạn sau đó bấm Thử lại</string>
+    <string name="limit_usage_minutes_title">Vui lòng thử lại sau ít phút</string>
+    <string name="limit_usage_minutes_subtitle">Bạn vui lòng chờ đợi ít phút cho lần trải nghiệm tiếp theo</string>
+    <string name="limit_usage_day_subtitle">Bạn đã vượt quá số lượt dùng thử trong ngày. Vui lòng đăng nhập để sử dụng miễn phí tính năng</string>
+    <string name="image_too_big">Dung lượng tối đa 5MB. Định dạng ảnh PNG,JPG,JPEG,SVG</string>
+    <string name="ai_result_report">Báo lỗi</string>
+    <string name="ai_report_answer_title">Báo cáo câu trả lời</string>
+    <string name="ai_result_list_result_title">Kết quả câu hỏi</string>
+    <string name="ai_result_list_suggest_title">Gợi ý kết quả tương đồng</string>
+    <string name="timi_result_waiting">Timi đang tập trung để trả lời câu hỏi của bạn, vui lòng chờ xíu nhé</string>
+    <string name="timi_result_title_error">Xin lỗi, Timi hiện tại không thể trả lời câu hỏi này!</string>
+    <string name="timi_result_not_found">Timi không thể giải câu hỏi này của bạn ngay bây giờ. Hãy đặt câu hỏi cho FQA để được hỗ trợ ngay trong vòng 9 phút.</string>
+    <string name="timi_result_limit_guest">Bạn đã hết lượt sử dụng lời giải của Timi trong ngày, vui lòng quay trở lại với Timi vào ngày mai.
+        Hoặc Đăng ký ngay tài khoản để kích hoạt thêm lượt sử dụng.</string>
+    <string name="timi_result_limit_user">Bạn đã hết lượt sử dụng lời giải của Timi trong ngày,vui lòng quay trở lại với Timi vào ngày mai.
+        Hoặc bạn có thể Đặt câu hỏi ngay trên FQA để có câu trả lời trong vòng 9 phút.</string>
+    <string name="timi_result_not_result">Timi không thể giải câu hỏi này của bạn ngay bây giờ. Hãy đặt câu hỏi cho FQA để được hỗ trợ ngay trong vòng 9 phút.</string>
+    <string name="timi_result_title_sorry">Rất tiếc!</string>
+    <string name="report_answer_error_suggest">Gợi ý sai</string>
+    <string name="report_answer_error_display">Lỗi hiển thị công thức</string>
+    <string name="report_answer_error_other">Khác</string>
+    <string name="report_send_success">Gửi báo cáo thành công</string>
+    <string name="report_send_failure">Gửi báo cáo không thành công</string>
+    <string name="report_answer_validate_reason">Vui lòng nhập từ 6 - 128 kí tự</string>
+    <string name="maintenance_server">Tính năng hiện đang trong giai đoạn bảo trì để mang lại hiệu quả tốt hơn trong quá trình sử dụng. Trong quá trình chờ đợi, bạn có thể Đặt câu hỏi cho FQA để nhận được lời giải nhanh nhất!</string>
+    <string name="title_feed_back">Lời giải này có hữu ích với bạn không?</string>
+    <string name="report_result_title">Oops bạn không hài lòng\nở điểm nào?</string>
+    <string name="report_result_not_found">Không có kết quả tôi đã tìm kiếm</string>
+    <string name="report_result_error_formula">Lỗi hiển thị công thức</string>
+    <string name="report_result_error_step">Các bước giải sai</string>
+    <string name="report_result_suggest">Viết nội dung (không quá 300 từ)</string>
+    <string name="report_result_send">Gửi phản hồi</string>
+    <string name="report_result_title_error_empty">Vui lòng mô tả chi tiết phản hồi!</string>
+    <string name="report_result_title_error_length">Vượt quá 300 ký tự cho phép nhập!</string>
+    <string name="feedback_result_error">Gửi phản hồi không thành công</string>
+    <string name="feed_back_result_ai_title">Gửi phản hồi thành công</string>
+    <string name="feed_back_result_ai_content">Cảm ơn bạn đã để lại phản hồi cho FQA, phản hồi quý giá của bạn sẽ giúp tính năng phát triển hơn trong tương lai!</string>
+    <string name="feed_back_result_ai_close">Đóng</string>
+
+    //practice exam
+    <string name="practice_exam_later">Làm bài sau</string>
+    <string name="practice_exam_submit">Nộp bài</string>
+    <string name="practice_exam_submit_later">Hoàn thành sau</string>
+    <string name="practice_exam_submit_later_dialog_message">Những phần bạn đã làm sẽ được lưu lại \ncho lần làm kế tiếp.\nBạn có chắc chắn muốn hoàn thành sau không?</string>
+    <string name="practice_exam_title">Luyện đề</string>
+    <string name="practice_exam_answer_sheet">Phiếu trả lời</string>
+    <string name="exam_result_answer_sheet">Phiếu đáp án</string>
+    <string name="practice_exam_submit_dialog_title">Bạn có chắc muốn nộp bài không?</string>
+    <string name="practice_exam_submit_remind_dialog_title_first">Bạn vẫn còn</string>
+    <string name="practice_exam_submit_remind_dialog_title_last">câu chưa làm. Bạn có chắc muốn nộp bài không?</string>
+    <string name="time_out_dialog_title">Hết giờ làm bài</string>
+    <string name="time_out_dialog_content">Đã hết giờ làm bài bạn có thể xem kết quả</string>
+    <string name="time_out_dialog_back">Quay lại</string>
+    <string name="practice_exam_result_type5_account">Câu tự luận luôn được tính điểm</string>
+    <string name="practice_exam_fail_dialog_title">Rất tiếc</string>
+    <string name="practice_exam_fail_dialog_message">Vì dữ liệu đề thi thay đổi nên bạn không thể tiếp tục làm nữa.</string>
+
+    // exam result
+    <string name="exam_result_title">Kết quả bài làm</string>
+    <string name="exam_result_history_do_this_exam">Lịch sử luyện tập đề này</string>
+    <string name="exam_result_preview">Tổng quan</string>
+    <string name="exam_result_detail">Chi tiết bài làm</string>
+    <string name="result_point_1">Timi buồn quá, kết quả lần này chưa được tốt, bạn đạt được %s\%% số điểm của đề thi. Timi đề xuất bạn luyện tập lại đề này nhé, Timi tin là bạn sẽ có kết quả tốt hơn ở lần luyện kế tiếp. Fighting!</string>
+    <string name="result_point_2">Bạn đã đạt được %s\%% số điểm của đề thi, Timi nhìn thấy sự cố gắng trong bài làm của bạn. Timi đề xuất bạn luyện tập thêm đề này để có thể đạt điểm giỏi, Timi tin bạn sẽ làm được. Fighting!</string>
+    <string name="result_point_3">Bạn đã đạt được %s\%% số điểm của đề thi, Timi rất ấn tượng. Timi đề xuất bạn luyện tập lại đề này để kiếm điểm tuyệt đối nhé, lúc đó Timi sẽ vui lắm. Fighting!</string>
+    <string name="result_point_4">Rất xuất sắc, bạn đã đạt được điểm tuyệt đối, Timi rất tự hào về bạn. Timi đề xuất bạn luyện tập thêm các đề khác nhé, Timi muốn nhìn thấy bộ sưu tập điểm tuyệt đối của bạn. Love!</string>
+    <string name="result_time">Thời gian</string>
+    <string name="result_time_start">Thời gian bắt đầu làm bài</string>
+    <string name="result_time_finish">Thời gian nộp bài</string>
+    <string name="result_time_do_exam_real">Thời gian làm thực tế</string>
+    <string name="result_time_max">Thời gian làm tối đa</string>
+    <string name="result_exam_structure">Cấu trúc đề</string>
+    <string name="result_exam_structure_1">Trắc nghiệm 1 đáp án</string>
+    <string name="result_exam_structure_2">Trắc nghiệm nhiều đáp án</string>
+    <string name="result_exam_structure_3">Điền vào chỗ trống</string>
+    <string name="result_exam_structure_4">Tự luận</string>
+    <string name="filter_category_exam">Loại đề</string>
+    <string name="filter_school_year">Năm học</string>
+    <string name="filter_location">Địa điểm</string>
+    <string name="filter_clazz">Lớp</string>
+    <string name="filter_subject">Môn học</string>
+    <string name="filter_practice_state">Trạng thái luyện</string>
+    <string name="filter_all_category_exam">Tất cả loại đề</string>
+    <string name="filter_all_school_year">Tất cả năm học</string>
+    <string name="filter_all_location">Tất cả tỉnh thành</string>
+    <string name="do_exam_child_question_num" formatted="false">Câu %s.%s</string>
+    <string name="do_exam_question_num" formatted="false">Câu %s</string>
+    <string name="do_exam_synthesize_question_num" formatted="false">Phần này có %s câu hỏi</string>
+    <string name="do_exam_upload_answer">Tải đáp án lên</string>
+    <string name="do_exam_input">Nhập nội dung...</string>
+    <string name="detail_exam_correct_answer">Đáp án đúng:</string>
+    <string name="detail_exam_your_answer">Câu trả lời của bạn:</string>
+    <string name="detail_exam_explanation">Giải thích:</string>
+    <string name="create_question_limit_error">Bạn đã vượt quá số câu trả lời cho 1 câu hỏi!</string>
+    <string name="table_content_title">Mục lục hướng dẫn</string>
+    <string name="id_card_create">Ngày cấp</string>
+    <string name="id_card_end">Ngày hết hạn</string>
+    <string name="achievements_title">Thành tích</string>
+
+    // survey result
+    <string name="survey_result_title">Ý kiến đóng góp</string>
+    <string name="survey_result_suf_title">Ý kiến đóng góp của bạn</string>
+    <string name="survey_result_admin_fqa">Admin FQA hồi đáp</string>
+    <string name="survey_result_action">Đóng góp ý kiến ngay</string>
+    <string name="survey_result_empty">Bạn chưa đóng góp ý tưởng phát triển cho FQA. Đội ngũ Admin FQA sẽ rất vui nếu nhận được những đóng góp của bạn để FQA ngày một phát triển hơn!</string>
+
+    <string name="empty_account">Tài khoản không được bỏ trống</string>
+    <string name="empty_password">Mật khẩu không được bỏ trống</string>
+    <string name="confirm_pass_fail">Mật khẩu không giống nhau</string>
+
+</resources>

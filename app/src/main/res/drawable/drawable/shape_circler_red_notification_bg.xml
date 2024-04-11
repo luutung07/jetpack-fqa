@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <stroke
+        android:width="@dimen/fbase_dimen_2"
+        android:color="@color/white" />
+    <solid android:color="@color/red_by_dot_notification_main" />
+</shape>
